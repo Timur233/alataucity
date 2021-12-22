@@ -41,7 +41,7 @@
         'presentName' => '10 вопросов, которые помогут найти квартиру мечты'
     );
 
-    $template = $twig->load('widgets/thanks-msg.html');
+    $template = $twig->load('widgets/thanks-msg.twig');
     echo $template->render($viewData);
 
     exit;
