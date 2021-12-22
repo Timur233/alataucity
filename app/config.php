@@ -1,7 +1,5 @@
 <?php
-  date_default_timezone_set('Asia/Dhaka');
-
-  define('SING_TOKEN', '457c34be9d753c381b65ae63d0ccac');
-  define('SINGLETON', 'tamarixcity');
-  define('FLATS_COLLECTION', 'rooms_tamarix');
+  define('SING_TOKEN', '457c34be9d753c381b65ae63d0ccac'); //Токен доступа к данным CMS
+  define('SINGLETON', 'ex_time'); //SingleTon Сайта
+  define('FLATS_COLLECTION', 'rooms_time'); //Коллекция квартир
 ?>

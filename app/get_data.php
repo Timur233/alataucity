@@ -4,7 +4,7 @@ require_once('config.php');
 function getData($lang='ru')
 {
 
-  $data = collectData('singletons', SINGLETON);
+  $data = collectData('singletons', SINGLETON, array('lang' => $lang));
 
   $collection = collectData('collections', FLATS_COLLECTION);
   $data['offers'] = json_encode($collection['entries']);
@@ -12,6 +12,7 @@ function getData($lang='ru')
   $data['footer'] = collectData('singletons', 'main_footer', array('lang' => $lang));
 
   $data['admin'] = isset($_GET['admin']) ? $_GET['admin'] : '';
+  $data['lang'] = isset($_GET['lang']) ? $_GET['lang'] : 'ru';
 
   return $data;
 

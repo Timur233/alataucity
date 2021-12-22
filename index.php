@@ -9,11 +9,16 @@ $twig = new \Twig\Environment($loader, [
 	'auto_reload' => true //true что бы автоматически чистить кэш
 ]);
 
-if ($_GET['form'] == 'send_form') {
+if (isset($_GET['form']) && $_GET['form'] == 'send_form') {
 	include  __DIR__ . '/app/send_form.php';
 } else {
+	if (isset($_GET['lang']) && !empty($_GET['lang'])) {
+		$lang = $_GET['lang'];
+	} else {
+		$lang = '';
+	}
 	$template = $twig->load('index.html');
-	echo $template->render(getData('ru'));
+	echo $template->render(getData($lang));
 }
 
 ?>

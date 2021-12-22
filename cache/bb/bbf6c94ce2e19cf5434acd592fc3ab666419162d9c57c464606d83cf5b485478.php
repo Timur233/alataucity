@@ -50,7 +50,7 @@ class __TwigTemplate_d1bee87e92ed8c2a5b73410694d9f815b7dc90b2c1884a24da5c9e355c2
     <link rel=\"stylesheet\" href=\"assets/css/bootstrap.css?v=3\" />
     <link rel=\"stylesheet\" href=\"assets/css/swiper.min.css\" />
     <link rel=\"stylesheet\" href=\"assets/css/all.min.css\" />
-    <link rel=\"stylesheet\" href=\"assets/css/style.css?v=28\" />
+    <link rel=\"stylesheet\" href=\"assets/css/style.css?v=21\" />
   
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -59,8 +59,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KGRKTW4');</script>
 <!-- End Google Tag Manager -->
-  
-  <meta name=\"facebook-domain-verification\" content=\"0tw9sy1v583i5gusykg75vbwwpancz\" />
   
   </head>
   <body class=\"nightMode\">
@@ -75,8 +73,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
     <div id=\"preloader\">
       <div class=\"preloader-content\">
         <img src=\"https://cms.abpx.kz";
-        // line 35
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["advantages_logo"] ?? null), "path", [], "any", false, false, false, 35), "html", null, true);
+        // line 33
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["advantages_logo"] ?? null), "path", [], "any", false, false, false, 33), "html", null, true);
         echo "\" alt=\"\">
       </div>
     </div>
@@ -86,8 +84,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         <a href=\"#\" class=\"close\" onclick=\"sideBarToggle('open'); return false\"><span></span><span></span></a>
         <a href=\"#\" onclick=\"sideBarToggle('open');\">
           <img src=\"https://cms.abpx.kz";
-        // line 43
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 43), "html", null, true);
+        // line 41
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 41), "html", null, true);
         echo "\" alt=\"\">
         </a>
         <ul>
@@ -115,7 +113,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         </ul>
         <div class=\"call\">
           <a href=\"tel:";
-        // line 69
+        // line 67
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
         echo "\" class=\"phone\" onclick=\"sideBarToggle('open');\"><i class=\"fas fa-phone-alt me-2\"></i> ";
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
@@ -130,12 +128,12 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         <div class=\"row\">
           <div class=\"col-4 col-md-5 col-lg d-flex align-items-center justify-content-start menu\">
             <a href=\"tel:";
-        // line 79
+        // line 77
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
         echo "\" id=\"phoneGroup\">
               <img src=\"assets/img/phone.svg\" alt=\"\">
               <span class=\"phoneNumber\">";
-        // line 81
+        // line 79
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
         echo "</span><br>
               <span class=\"info\">Отдел продаж</span>
@@ -158,12 +156,12 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
           <div class=\"col-4 col-md-2 col-lg-2 col-xl-1 col-xxl-1 d-flex brand align-items-center justify-content-center\">
             <a class=\"navbar-brand d-inline-block rounded-bottom px-4 py-2 m-0\" href=\"#home\">
               <img src=\"https://cms.abpx.kz";
-        // line 101
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 101), "html", null, true);
+        // line 99
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 99), "html", null, true);
         echo "\" data-first=\"https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 101), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 99), "html", null, true);
         echo "\" data-second=\"https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 101), "html", null, true);
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 99), "html", null, true);
         echo "\" class=\"px-2 py-1\" alt=\"\" />
             </a>
           </div>
@@ -199,28 +197,28 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
       <div class=\"cloud decor1 parallax__layer\" style=\"background-image: url('assets/img/decor1.png')\" data-speed=\"30\"></div>
       <div class=\"cloud decor2 parallax__layer\" style=\"background-image: url('assets/img/decor2.png')\" data-speed=\"30\"></div>
       <div class=\"city parallax__layer\" style=\"background-image: url('https://cms.abpx.kz";
-        // line 135
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["slide_img"] ?? null), "path", [], "any", false, false, false, 135), "html", null, true);
+        // line 133
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["slide_img"] ?? null), "path", [], "any", false, false, false, 133), "html", null, true);
         echo "')\" data-speed=\"50\"></div>
       <div class=\"crop\" style=\"background-image: url('https://cms.abpx.kz";
-        // line 136
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["slide_bottom"] ?? null), "path", [], "any", false, false, false, 136), "html", null, true);
+        // line 134
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["slide_bottom"] ?? null), "path", [], "any", false, false, false, 134), "html", null, true);
         echo "')\"></div>
       <div class=\"container position-relative d-flex align-items-center h-100\">
         <div class=\"section-slider-content\">
           <div class=\"row\">
             <div class=\"col-md-12 col-lg-12 text-center\">
               <h1>";
-        // line 141
+        // line 139
         echo twig_escape_filter($this->env, ($context["slide_title"] ?? null), "html", null, true);
         echo "</h1>
               <div class=\"slider_content py-4 px-5\">
                 <span>";
-        // line 143
+        // line 141
         echo twig_escape_filter($this->env, ($context["slide_desc"] ?? null), "html", null, true);
         echo "</span>
                 <h3>";
-        // line 144
+        // line 142
         echo twig_escape_filter($this->env, ($context["slide_desc_2"] ?? null), "html", null, true);
         echo "</h3>
               </div>
@@ -234,34 +232,34 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
       <div class=\"container\">
         <h2 class=\"sectionTitle\">
           <span class=\"color\">";
-        // line 155
+        // line 153
         echo twig_escape_filter($this->env, ($context["reasons_color_title"] ?? null), "html", null, true);
         echo "</span>
           ";
-        // line 156
+        // line 154
         echo twig_escape_filter($this->env, ($context["reasons_title"] ?? null), "html", null, true);
         echo "
           <span class=\"ghostTitle\">";
-        // line 157
+        // line 155
         echo twig_escape_filter($this->env, ($context["reasons_ghost_title"] ?? null), "html", null, true);
         echo "</span>
         </h2>
         <div class=\"gallery-swiper swiper-container py-4\">
           <div class=\"swiper-wrapper\">
             ";
-        // line 161
+        // line 159
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["reasons_gallery"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 162
+            // line 160
             echo "              <div class=\"swiper-slide\">
                 <a data-fslightbox=\"first-lightbox\" href=\"https://cms.abpx.kz";
-            // line 163
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 163), "html", null, true);
+            // line 161
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 161), "html", null, true);
             echo "\">
                   <img src=\"https://cms.abpx.kz";
-            // line 164
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 164), "html", null, true);
+            // line 162
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 162), "html", null, true);
             echo "\" alt=\"\">
                 </a>
               </div>
@@ -270,7 +268,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 168
+        // line 166
         echo "          </div>
         <div class=\"swiper-button-next\"></div>
       \t<div class=\"swiper-button-prev\"></div>
@@ -279,9 +277,9 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
     </section>
   
   \t";
-        // line 175
+        // line 173
         if (($context["discounst"] ?? null)) {
-            // line 176
+            // line 174
             echo "    <section id=\"discount\" class=\"discount pt-0 pb-6 pt-md-6 pb-md-0\">
       <div class=\"container\">
         <div class=\"row\">
@@ -290,20 +288,20 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
             <div class=\"about_block\">
               <h2 class=\"sectionTitle\">
                 ";
-            // line 183
+            // line 181
             echo twig_escape_filter($this->env, ($context["discounst_title"] ?? null), "html", null, true);
             echo "
                 <span class=\"color\">";
-            // line 184
+            // line 182
             echo twig_escape_filter($this->env, ($context["discounst_color_title"] ?? null), "html", null, true);
             echo "</span>
                 <span class=\"ghostTitle\">";
-            // line 185
+            // line 183
             echo twig_escape_filter($this->env, ($context["discounst_ghost_title"] ?? null), "html", null, true);
             echo "</span>
               </h2>
               ";
-            // line 187
+            // line 185
             echo ($context["discounst_text"] ?? null);
             echo "
             </div>
@@ -312,16 +310,16 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
           <div class=\"col-12 text-center mt-3\">
               <picture>
                 <source media=\"(max-width: 550px)\" srcset=\"https://cms.abpx.kz";
-            // line 193
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_phone"] ?? null), "path", [], "any", false, false, false, 193), "html", null, true);
+            // line 191
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_phone"] ?? null), "path", [], "any", false, false, false, 191), "html", null, true);
             echo "\">
                 <source media=\"(max-width: 768px)\" srcset=\"https://cms.abpx.kz";
-            // line 194
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_ipad"] ?? null), "path", [], "any", false, false, false, 194), "html", null, true);
+            // line 192
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_ipad"] ?? null), "path", [], "any", false, false, false, 192), "html", null, true);
             echo "\">
                 <img src=\"https://cms.abpx.kz";
-            // line 195
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image"] ?? null), "path", [], "any", false, false, false, 195), "html", null, true);
+            // line 193
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image"] ?? null), "path", [], "any", false, false, false, 193), "html", null, true);
             echo "\" class=\"w-100\" alt=\"";
             echo twig_escape_filter($this->env, ($context["discounst_title"] ?? null), "html", null, true);
             echo " ";
@@ -335,71 +333,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
     </section>
     ";
         }
-        // line 203
-        echo "
-
-
-    ";
-        // line 206
-        if (($context["special_discounst"] ?? null)) {
-            // line 207
-            echo "    <section id=\"special_discounst\" class=\"special_discounst pt-0 pb-6 pt-md-6 pb-md-0\">
-      <div class=\"container\">
-        <div class=\"row\">
-          ";
-            // line 210
-            if (($context["special_discounst_title"] ?? null)) {
-                // line 211
-                echo "            <div class=\"col-12 mb-5 mb-md-0 mу-auto d-flex align-items-center\">
-              <div class=\"about_block\">
-                <h2 class=\"sectionTitle\">
-                  ";
-                // line 214
-                echo twig_escape_filter($this->env, ($context["special_discounst_title"] ?? null), "html", null, true);
-                echo "
-                </h2>
-                ";
-                // line 216
-                echo ($context["special_discounst_desc"] ?? null);
-                echo "
-              </div>
-            </div>
-          ";
-            }
-            // line 220
-            echo "          ";
-            if (($context["discounst_image"] ?? null)) {
-                // line 221
-                echo "            <div class=\"col-12 text-center mt-3\">
-            \t<a href=\"";
-                // line 222
-                echo twig_escape_filter($this->env, ($context["special_discounst_link"] ?? null), "html", null, true);
-                echo "\" title=\"";
-                echo twig_escape_filter($this->env, ($context["special_discounst_title"] ?? null), "html", null, true);
-                echo "\" target=\"blink\">
-              \t\t<picture>
-                \t\t<source media=\"(max-width: 550px)\" srcset=\"https://cms.abpx.kz";
-                // line 224
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["special_discounst_image_mob"] ?? null), "path", [], "any", false, false, false, 224), "html", null, true);
-                echo "\">
-                \t\t<img src=\"https://cms.abpx.kz";
-                // line 225
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["special_discounst_image"] ?? null), "path", [], "any", false, false, false, 225), "html", null, true);
-                echo "\" class=\"w-100\" alt=\"";
-                echo twig_escape_filter($this->env, ($context["special_discounst_title"] ?? null), "html", null, true);
-                echo "\">
-              \t\t</picture>
-            \t</a>
-            </div>
-          ";
-            }
-            // line 230
-            echo "        </div>
-      </div>
-    </section>
-    ";
-        }
-        // line 234
+        // line 201
         echo "
     <section id=\"about\" class=\"aboutUsBlock pb-6 pt-0 py-md-6\">
       <div class=\"container\">
@@ -408,8 +342,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
           <div class=\"col-md-12 col-lg-5 order-1 order-md-1 order-lg-0 mt-5 mt-md-5 mb-lg-0 mt-lg-0\">
             <div class=\"img-block\">
               <img src=\"https://cms.abpx.kz";
-        // line 241
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["about_image"] ?? null), "path", [], "any", false, false, false, 241), "html", null, true);
+        // line 208
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["about_image"] ?? null), "path", [], "any", false, false, false, 208), "html", null, true);
         echo "\" alt=\"";
         echo twig_escape_filter($this->env, ($context["about_title"] ?? null), "html", null, true);
         echo " ";
@@ -422,20 +356,20 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
             <div class=\"about_block\">
               <h2 class=\"sectionTitle\">
                 ";
-        // line 248
+        // line 215
         echo twig_escape_filter($this->env, ($context["about_title"] ?? null), "html", null, true);
         echo "
                 <span class=\"color\">";
-        // line 249
+        // line 216
         echo twig_escape_filter($this->env, ($context["about_title_color"] ?? null), "html", null, true);
         echo "</span>
                 <span class=\"ghostTitle\">";
-        // line 250
+        // line 217
         echo twig_escape_filter($this->env, ($context["about_ghost_title"] ?? null), "html", null, true);
         echo "</span>
               </h2>
               ";
-        // line 252
+        // line 219
         echo ($context["about_desc"] ?? null);
         echo "
               <a href=\"#flats\" class=\"btn btn-gradient mt-3\">Выбрать квартиру</a>
@@ -657,7 +591,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
 
       <script type=\"text/javascript\">
         var offersAll = ";
-        // line 471
+        // line 438
         echo ($context["offers"] ?? null);
         echo "
       </script>
@@ -669,23 +603,23 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         <div class=\"row\">
           <div class=\"col-md-12 col-lg-4 pe-lg-5\">
             ";
-        // line 480
+        // line 447
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(range(0, 2));
         foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-            // line 481
+            // line 448
             echo "            <div class=\"advantage text-end bg-light mb-3 p-4\">
               <span>";
-            // line 482
+            // line 449
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "</span>
               <h3>";
-            // line 483
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = twig_get_attribute($this->env, $this->source, (($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = ($context["advantages_items"] ?? null)) && is_array($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144) || $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 instanceof ArrayAccess ? ($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 483)) && is_array($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) || $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 instanceof ArrayAccess ? ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4[0] ?? null) : null), "settings", [], "any", false, false, false, 483), "text", [], "any", false, false, false, 483), "html", null, true);
+            // line 450
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = twig_get_attribute($this->env, $this->source, (($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = ($context["advantages_items"] ?? null)) && is_array($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144) || $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 instanceof ArrayAccess ? ($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 450)) && is_array($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) || $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 instanceof ArrayAccess ? ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4[0] ?? null) : null), "settings", [], "any", false, false, false, 450), "text", [], "any", false, false, false, 450), "html", null, true);
             echo "</h3>
               ";
-            // line 484
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b = twig_get_attribute($this->env, $this->source, (($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 = ($context["advantages_items"] ?? null)) && is_array($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002) || $__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 instanceof ArrayAccess ? ($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 484)) && is_array($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b) || $__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b instanceof ArrayAccess ? ($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b[1] ?? null) : null), "settings", [], "any", false, false, false, 484), "text", [], "any", false, false, false, 484);
+            // line 451
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b = twig_get_attribute($this->env, $this->source, (($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 = ($context["advantages_items"] ?? null)) && is_array($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002) || $__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 instanceof ArrayAccess ? ($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 451)) && is_array($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b) || $__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b instanceof ArrayAccess ? ($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b[1] ?? null) : null), "settings", [], "any", false, false, false, 451), "text", [], "any", false, false, false, 451);
             echo "
               <img src=\"assets/img/arrow.svg\" class=\"arrow\">
             </div>
@@ -694,33 +628,33 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 488
+        // line 455
         echo "          </div>
-          <div class=\"col-md-12 col-lg-4 px-6 px-lg-2 d-flex align-content-center px-5 advantage-logo pt-3 pb-4 py-sm-5 py-lg-0 mb-2 mb-lg-0\">
+          <div class=\"col-md-12 col-lg-4 px-6 px-lg-2 d-flex align-content-center px-5 advantage-logo py-3 py-sm-5 py-lg-0 mb-2 mb-lg-0\">
             <img src=\"https://cms.abpx.kz";
-        // line 490
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["advantages_logo"] ?? null), "path", [], "any", false, false, false, 490), "html", null, true);
+        // line 457
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["advantages_logo"] ?? null), "path", [], "any", false, false, false, 457), "html", null, true);
         echo "\" class=\"advantagesLogo w-100\">
           </div>
           <div class=\"col-md-12 col-lg-4 ps-lg-5\">
             ";
-        // line 493
+        // line 460
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(range(3, 5));
         foreach ($context['_seq'] as $context["_key"] => $context["i"]) {
-            // line 494
+            // line 461
             echo "            <div class=\"advantage text-start bg-light mb-3 p-4\">
               <span>";
-            // line 495
+            // line 462
             echo twig_escape_filter($this->env, $context["i"], "html", null, true);
             echo "</span>
               <h3>";
-            // line 496
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 = twig_get_attribute($this->env, $this->source, (($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 = ($context["advantages_items"] ?? null)) && is_array($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666) || $__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 instanceof ArrayAccess ? ($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 496)) && is_array($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4) || $__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 instanceof ArrayAccess ? ($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4[0] ?? null) : null), "settings", [], "any", false, false, false, 496), "text", [], "any", false, false, false, 496), "html", null, true);
+            // line 463
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 = twig_get_attribute($this->env, $this->source, (($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 = ($context["advantages_items"] ?? null)) && is_array($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666) || $__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 instanceof ArrayAccess ? ($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 463)) && is_array($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4) || $__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 instanceof ArrayAccess ? ($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4[0] ?? null) : null), "settings", [], "any", false, false, false, 463), "text", [], "any", false, false, false, 463), "html", null, true);
             echo "</h3>
               ";
-            // line 497
-            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e = twig_get_attribute($this->env, $this->source, (($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 = ($context["advantages_items"] ?? null)) && is_array($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52) || $__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 instanceof ArrayAccess ? ($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 497)) && is_array($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e) || $__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e instanceof ArrayAccess ? ($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e[1] ?? null) : null), "settings", [], "any", false, false, false, 497), "text", [], "any", false, false, false, 497);
+            // line 464
+            echo twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e = twig_get_attribute($this->env, $this->source, (($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 = ($context["advantages_items"] ?? null)) && is_array($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52) || $__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 instanceof ArrayAccess ? ($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52[$context["i"]] ?? null) : null), "children", [], "any", false, false, false, 464)) && is_array($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e) || $__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e instanceof ArrayAccess ? ($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e[1] ?? null) : null), "settings", [], "any", false, false, false, 464), "text", [], "any", false, false, false, 464);
             echo "
               <img src=\"assets/img/arrow.svg\" class=\"arrow\">
             </div>
@@ -729,7 +663,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['i'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 501
+        // line 468
         echo "          </div>
         </div>
       </div>
@@ -742,20 +676,20 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
             <div class=\"content ps-4 pe-4 ps-md-5 py-5 py-md-5\">
               <h2 class=\"sectionTitle\">
                 ";
-        // line 512
+        // line 479
         echo twig_escape_filter($this->env, ($context["concept_title_1"] ?? null), "html", null, true);
         echo "
                 <span class=\"color\">";
-        // line 513
+        // line 480
         echo twig_escape_filter($this->env, ($context["concept_color_title_1"] ?? null), "html", null, true);
         echo "</span>
                 <span class=\"ghostTitle\">";
-        // line 514
+        // line 481
         echo twig_escape_filter($this->env, ($context["concept_ghost_title_1"] ?? null), "html", null, true);
         echo "</span>
               </h2>
               ";
-        // line 516
+        // line 483
         echo ($context["concept_text_1"] ?? null);
         echo "
             </div>
@@ -763,8 +697,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
           <div class=\"col-12 col-md-6 col-lg-6 col-xl-6 px-0 order-1 order-md-1\">
             <div class=\"img-block\">
               <img src=\"https://cms.abpx.kz";
-        // line 521
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["concept_image_1"] ?? null), "path", [], "any", false, false, false, 521), "html", null, true);
+        // line 488
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["concept_image_1"] ?? null), "path", [], "any", false, false, false, 488), "html", null, true);
         echo "\" alt=\"\">
             </div>
           </div>
@@ -778,8 +712,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
           <div class=\"col-md-6 col-lg-6 col-xl-6 px-0 order-1 order-md-0\">
             <div class=\"img-block\">
               <img src=\"https://cms.abpx.kz";
-        // line 533
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["concept_image_2"] ?? null), "path", [], "any", false, false, false, 533), "html", null, true);
+        // line 500
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["concept_image_2"] ?? null), "path", [], "any", false, false, false, 500), "html", null, true);
         echo "\" alt=\"\">
             </div>
           </div>
@@ -787,20 +721,20 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
             <div class=\"content ps-4 pe-4 ps-md-5 py-5 py-md-5\">
               <h2 class=\"sectionTitle\">
                 ";
-        // line 539
+        // line 506
         echo twig_escape_filter($this->env, ($context["contept_title_2"] ?? null), "html", null, true);
         echo "
                 <span class=\"color\">";
-        // line 540
+        // line 507
         echo twig_escape_filter($this->env, ($context["concept_color_title_2"] ?? null), "html", null, true);
         echo "</span>
                 <span class=\"ghostTitle\">";
-        // line 541
+        // line 508
         echo twig_escape_filter($this->env, ($context["concept_ghost_title_2"] ?? null), "html", null, true);
         echo "</span>
               </h2>
               ";
-        // line 543
+        // line 510
         echo ($context["concept_text_2"] ?? null);
         echo "
             </div>
@@ -814,15 +748,15 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
 
         <h2 class=\"sectionTitle mt-5\">
           ";
-        // line 554
+        // line 521
         echo twig_escape_filter($this->env, ($context["steps_title"] ?? null), "html", null, true);
         echo "
           <span class=\"color\">";
-        // line 555
+        // line 522
         echo twig_escape_filter($this->env, ($context["steps_color_title"] ?? null), "html", null, true);
         echo "</span>
           <span class=\"ghostTitle\">";
-        // line 556
+        // line 523
         echo twig_escape_filter($this->env, ($context["steps_ghost_title"] ?? null), "html", null, true);
         echo "</span>
         </h2>
@@ -830,26 +764,26 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         <div class=\"steps-swiper swiper-container py-4\">
           <div class=\"swiper-wrapper\">
             ";
-        // line 561
+        // line 528
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["steps_items"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 562
+            // line 529
             echo "            <div class=\"swiper-slide\" style=\"background-image: url(https://cms.abpx.kz";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 562)) && is_array($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136) || $__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 instanceof ArrayAccess ? ($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136[2] ?? null) : null), "settings", [], "any", false, false, false, 562), "image", [], "any", false, false, false, 562), "path", [], "any", false, false, false, 562), "html", null, true);
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 529)) && is_array($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136) || $__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 instanceof ArrayAccess ? ($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136[2] ?? null) : null), "settings", [], "any", false, false, false, 529), "image", [], "any", false, false, false, 529), "path", [], "any", false, false, false, 529), "html", null, true);
             echo ")\">
                 <div class=\"step-information\">
                   <h3>";
-            // line 564
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 564)) && is_array($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386) || $__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 instanceof ArrayAccess ? ($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386[0] ?? null) : null), "settings", [], "any", false, false, false, 564), "text", [], "any", false, false, false, 564), "html", null, true);
+            // line 531
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 531)) && is_array($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386) || $__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 instanceof ArrayAccess ? ($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386[0] ?? null) : null), "settings", [], "any", false, false, false, 531), "text", [], "any", false, false, false, 531), "html", null, true);
             echo "</h3>
                   ";
-            // line 565
-            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 565)) && is_array($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9) || $__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 instanceof ArrayAccess ? ($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9[1] ?? null) : null), "settings", [], "any", false, false, false, 565), "gallery", [], "any", false, false, false, 565)) {
-                // line 566
+            // line 532
+            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 532)) && is_array($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9) || $__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 instanceof ArrayAccess ? ($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9[1] ?? null) : null), "settings", [], "any", false, false, false, 532), "gallery", [], "any", false, false, false, 532)) {
+                // line 533
                 echo "                    <a href=\"#\" class=\"btn btn-gradient\" data-gallery-images=\"";
                 $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 566)) && is_array($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae) || $__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae instanceof ArrayAccess ? ($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae[1] ?? null) : null), "settings", [], "any", false, false, false, 566), "gallery", [], "any", false, false, false, 566));
+                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 533)) && is_array($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae) || $__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae instanceof ArrayAccess ? ($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae[1] ?? null) : null), "settings", [], "any", false, false, false, 533), "gallery", [], "any", false, false, false, 533));
                 $context['loop'] = [
                   'parent' => $context['_parent'],
                   'index0' => 0,
@@ -865,8 +799,8 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
                 }
                 foreach ($context['_seq'] as $context["_key"] => $context["img"]) {
                     echo "https://cms.abpx.kz";
-                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["img"], "path", [], "any", false, false, false, 566), "html", null, true);
-                    if ((twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 566) == false)) {
+                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["img"], "path", [], "any", false, false, false, 533), "html", null, true);
+                    if ((twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 533) == false)) {
                         echo ",";
                     }
                     ++$context['loop']['index0'];
@@ -884,7 +818,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
                 echo "\"  onclick=\"creiateLightbox(this.getAttribute('data-gallery-images')); return false\">Открыть</a>
                   ";
             }
-            // line 568
+            // line 535
             echo "                </div>
             </div>
             ";
@@ -892,7 +826,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 571
+        // line 538
         echo "          </div>
 
         </div>
@@ -914,7 +848,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
                       <span class=\"color\">заявку</span>
                     </h2>
                     <div class=\"mb-3\">
-                      <input type=\"text\" class=\"form-control\" id=\"staticFormName\" name=\"name\" placeholder=\"Имя\" value=\"\">
+                      <input type=\"text\" class=\"form-control\" id=\"staticFormName\" name=\"name\" placeholder=\"Имя\">
                     </div>
                     <div class=\"mb-3\">
                       <input type=\"text\" class=\"form-control\" id=\"staticFormPhone\" name=\"phone\" placeholder=\"Телефон\" required=\"required\">
@@ -931,10 +865,49 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
       </div>
     </section>
 
-    ";
-        // line 609
-        echo twig_include($this->env, $context, "widgets/footer.html");
-        echo "
+    <footer id=\"footer\" class=\"py-4\">
+      <div class=\"container text-center text-sm-start\">
+        <div class=\"row\">
+          <div class=\"col-md-4 me-auto\">
+            <a href=\"https://exin.kz/\" target=\"_blank\">
+              <img src=\"assets/img/ex-logo-gr.svg\" class=\"logo\">
+            </a>
+          </div>
+          <div class=\"col-md-8\">
+            <ul class=\"footer-menu\">
+              <li>
+                <a href=\"tel:";
+        // line 587
+        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
+        echo "\"
+                ><i class=\"fas fa-phone-alt me-2\"></i> ";
+        // line 588
+        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
+        echo "</a
+                >
+              </li>
+              <li>
+                ";
+        // line 592
+        if (($context["site_insta"] ?? null)) {
+            // line 593
+            echo "                <a href=\"https://instagram.com/";
+            echo twig_escape_filter($this->env, ($context["site_insta"] ?? null), "html", null, true);
+            echo "\" target=\"_blank\"
+                ><i class=\"fab fa-instagram me-2\"></i> ";
+            // line 594
+            echo twig_escape_filter($this->env, ($context["site_insta"] ?? null), "html", null, true);
+            echo "</a
+                >
+                ";
+        }
+        // line 597
+        echo "              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Modal -->
     <div class=\"modal fade\" id=\"callbackModal\" tabindex=\"-1\" aria-labelledby=\"callbackModalLabel\" aria-hidden=\"true\">
@@ -945,7 +918,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
             <h5 class=\"modal-title\" id=\"callbackModalLabel\">Оставить заявку</h5>
             <form action=\"\">
               <div class=\"mb-3\">
-                <input type=\"text\" class=\"form-control\" id=\"formName\" name=\"name\" placeholder=\"Имя\" value=\"\">
+                <input type=\"text\" class=\"form-control\" id=\"formName\" name=\"name\" placeholder=\"Имя\">
               </div>
               <div class=\"mb-3\">
                 <input type=\"text\" class=\"form-control\" id=\"formPhone\" name=\"phone\" placeholder=\"Телефон\" required=\"\">
@@ -961,37 +934,6 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         </div>
       </div>
     </div>
-
-    <!-- 3D Tour Bytton -->
-    <a data-fslightbox=\"lightbox\" href=\"#3dTour\" class=\"web-tour\">
-      <img src=\"assets/img/3d.svg\" alt=\"\">
-      <span>3D ТУР</span>
-    </a>
-
-    <div class=\"hidden-lightbox d-none\">
-      <iframe
-              data-src=\"https://vr.mir3d.kz/TamarixCity/#pano16374/103.1/44.1/50.8\"
-              id=\"3dTour\"
-              width=\"1920px\"
-              height=\"1080px\"
-              frameBorder=\"0\"
-              allow=\"autoplay; fullscreen\"
-              allowFullScreen>
-      </iframe>
-    </div>
-
-    <script>
-      window.onload = () => {
-        let tourButton = document.querySelector('.web-tour')
-
-        tourButton.addEventListener('click', ()=>{
-          let iframeName = document.getElementById('3dTour');
-          iframeName.setAttribute('src', iframeName.getAttribute('data-src'))
-          let iframeContent = iframeName.contentDocument;
-          iframeContent.body.innerHTML = iframeContent.body.innerHTML + '<style>.iframe-css{color: #d92909}</style>';
-        })
-      }
-    </script>
 
   </body>
   <script src=\"assets/js/bootstrap.min.js\"></script>
@@ -1297,7 +1239,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
         offersHtml +=
                 '            <div class=\"col-md-5 floot-info d-flex flex-wrap\">';
         offersHtml += '              <div class=\"floor-data align-items-start mt-2\">';
-        offersHtml += '                <h4>' + el.rooms + '-х комнатная</h4>';
+        offersHtml += '                <h4>' + el.title + '-комнатная</h4>';
         offersHtml += '                <p>Площадь: <b>' + el.square + ' м2</b></p>';
         offersHtml += '                <a class=\"downloadPlan\" data-caption=\"' + el.title + '\" href=\"https://cms.abpx.kz' + el.plan.path + '\" onclick=\"creiateLightbox(this.href); return false\">Скачать планировку</a>';
         //offersHtml += '                <div class=\"mb-3\">';
@@ -1453,118 +1395,25 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
       let errors = false
       let form = element.parentNode.parentNode
       let inputs = form.querySelectorAll('input, textarea')
-      let userName = form.querySelector('[name=\"name\"]')
       let formQuery = new Object()
-
-      let preloader = document.createElement('div')
-      preloader.classList.add('preloader')
-      form.appendChild(preloader)
-      
-      if (userName.value == '') {
-      \tuserName.value = 'Не указано'
-      }
 
       inputs.forEach(function (el) {
         if (el.hasAttribute(\"required\") && el.value != \"\" || !el.hasAttribute(\"required\") && el.value != \"\") {
           let id = el.id
           let name = el.placeholder
           let data = el.value
-          formQuery[''+id] = {name: name, data: data}
+          formQuery[''+id] = {name, data}
         } else {
           if (el.hasAttribute(\"required\")) {
             el.setAttribute('style', 'border: 2px solid red;')
             errors = true
           }
         }
-      
-      \tif (el.name == 'phone') {
-        \tif (!validatePhoneNumber(el.value)) {
-            \tclearMessages()
-            \tlet errMess = document.createElement('span')
-                errMess.classList.add('input-err')
-                errMess.textContent = 'Пожалуйста, проверьте, правильность введённого вами номера!'
-            \tel.parentNode.appendChild(errMess)
-            \terrors = true
-            } else {
-            \tclearMessages()
-            }
-        }
-      
       })
 
       if (!errors) {
-        let user_data = collect_user_data()
-        formQuery = Object.assign(formQuery, user_data)
         send_data(formQuery, form)
-      } else {
-        preloader.remove()
       }
-
-    }
-
-    function collect_user_data(){
-
-      const url = new URL(document.location.href)
-      let user_data = new Object()
-
-      //UTM DATA
-      if (url.searchParams.get('utm_source')) {
-        let name = 'utm_source'
-        let data = url.searchParams.get('utm_source')
-        user_data['utm_source'] = {name: name, data: data}
-      }
-
-      if (url.searchParams.get('utm_medium')) {
-        let name = 'utm_medium'
-        let data = url.searchParams.get('utm_medium')
-        user_data['utm_medium'] = {name: name, data: data}
-      }
-
-      if (url.searchParams.get('utm_campaign')) {
-        let name = 'utm_campaign'
-        let data = url.searchParams.get('utm_campaign')
-        user_data['utm_campaign'] = {name: name, data: data}
-      }
-
-      if (url.searchParams.get('utm_term')) {
-        let name = 'utm_term'
-        let data = url.searchParams.get('utm_term')
-        user_data['utm_term'] = {name: name, data: data}
-      }
-
-      if (url.searchParams.get('utm_content')) {
-        let name = 'utm_content'
-        let data = url.searchParams.get('utm_content')
-        user_data['utm_content'] = {name: name, data: data}
-      }
-
-      //UserAgent
-      if (window.navigator.userAgent) {
-        let name = 'userAgent'
-        let data = window.navigator.userAgent
-        user_data['userAgent'] = {name: name, data: data}
-      }
-
-      //Cookie
-      if (get_cookie('_ga')) {
-        let name = '_ga'
-        let data = get_cookie('_ga').split('.')
-        data = data[data.length - 2] + '.' + data[data.length - 1]
-        user_data['_ga'] = {name: name, data: data}
-      }
-
-      //GetCookie Function
-      function get_cookie ( cookie_name )
-      {
-        var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|\$)' );
-
-        if ( results )
-          return ( unescape ( results[2] ) );
-        else
-          return null;
-      }
-
-      return user_data
 
     }
 
@@ -1606,78 +1455,65 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
     \tbars.classList.toggle('active')
     }
   
-    let slides = 2.8
-    margin = 25
-    if (window.innerWidth < 768) {
-      slides = 1.3
+  \t  let slides = 2.8
       margin = 25
-    }
-    if (window.innerWidth < 576) {
-      slides = 1.2
-    }
-
-    var phoneInputs = document.querySelectorAll('input[name=\"phone\"]')
-
-    phoneInputs.forEach((el) => {
-
-      el.addEventListener('input', function (e) { phoneFormatter(e, el) });
-      el.addEventListener('focus', function (e) { phoneFormatter(e, el) });
-
-    })
-
-    function phoneFormatter(e, el) {
-      clearMessages()
-      let numberCodes = ['710', '711', '712', '713', '714', '715', '716', '717', '718', '721', '722', '723', '724', '725', '726', '727', '728', '729', '736', '700', '701', '702', '703', '704', '705', '706', '707', '708', '709', '747', '750', '751', '760', '761', '762', '763', '764', '771', '775', '776', '777', '778']
-      let x = e.target.value.replace(/\\D/g, '').slice(1).match(/(^\\d{0,3})(\\d{0,3})(\\d{0,2})(\\d{0,2})/);
-
-      e.target.value = !x[2] ? \"+7\" + x[1] : \"+7\" + ' (' + x[1] + ') ' + x[2] + (x[3] ? '-' + x[3] : '') + (x[4] ? '-' + x[4] : '');
-
-      let errMess = document.createElement('span')
-      errMess.classList.add('input-err')
-      errMess.textContent = 'Пожалуйста, проверьте, правильность введённого вами номера!'
-
-      if (x[2] && numberCodes.indexOf(x[1]) == -1) {
-        el.parentNode.appendChild(errMess)
-      } else {
-        clearMessages()
+  \t  if (window.innerWidth < 768) {
+      \tslides = 1.3
+     \tmargin = 25
+      } 
+  \t  if (window.innerWidth < 576) {
+\t\tslides = 1.2
       }
-    }
+    
+      var phoneInputs = document.querySelectorAll('input[name=\"phone\"]')
 
-    function clearMessages() {
-      let messAll = document.querySelectorAll('.input-err')
-      messAll.forEach((el) => {
-        el.remove()
+      phoneInputs.forEach((el) => {
+          el.addEventListener('input', function (e) {
+              clearMessages()
+              let numberCodes = ['710','711','712','713','714','715','716','717','718','721','722','723','724','725','726','727','728','729','736','700','701','702','703','704','705','706','707','708','709','747','750','751','760','761','762','763','764','771','775','776','777','778']
+              let x = e.target.value.replace(/\\D/g, '').match(/(^\\d{0,1})(\\d{0,3})(\\d{0,3})(\\d{0,2})(\\d{0,2})/);
+
+              e.target.value = !x[3] ? \"+\" + x[1] + x[2] : \"+\" + x[1] + ' (' + x[2] + ') ' + x[3] + (x[4] ? '-' + x[4] : '') + (x[5] ? '-' + x[5] : '');
+
+              let errMess = document.createElement('span')
+              errMess.classList.add('input-err')
+              errMess.textContent = 'Пожалуйста, проверьте, правильность введённого вами номера!'
+
+            console.log(numberCodes.indexOf(x[2]))
+              if (x[3] && ((x[1] != '7') || (numberCodes.indexOf(x[2]) == -1))) {
+                  el.parentNode.appendChild(errMess)
+              } else {
+                  clearMessages()
+              }
+
+          });
       })
-    }
 
-    function validatePhoneNumber(number) {
-      if (number.match(/^\\+\\d{1} \\(\\d{3}\\) \\d{3}\\-\\d{2}\\-\\d{2}\$/)) {
-          return true
-      } else {
-          return false
+      function clearMessages() {
+  \t    let messAll = document.querySelectorAll('.input-err')
+        messAll.forEach((el) => {
+          el.remove()
+        })
       }
-  }
-  
   </script>
 
 <style>
-  .gallery-swiper img {
-      max-width:100%;
-  }
-  span.input-err {
-    position: relative;
-    background: #efd37d;
-    padding: 8px 10px;
-    display: inline-flex;
-    border-radius: 4px;
-    margin-top: 15px;
-    line-height: 1.2;
-    font-size: .86rem;
-    width: 100%;
-  }
+.gallery-swiper img {
+\tmax-width:100%;
+}
+span.input-err {
+  position: relative;
+  background: #efd37d;
+  padding: 8px 10px;
+  display: inline-flex;
+  border-radius: 4px;
+  margin-top: 15px;
+  line-height: 1.2;
+  font-size: .86rem;
+  width: 100%;
+}
 
-  span.input-err:before {content: '';position: absolute;width: 10px;height: 10px;background: #efd37d; top: -5px;left: 15px;transform: rotate(45deg);}
-  form .preloader {content: '';position: absolute;left: 0px;top: 0px;right: 0px;bottom: 0px;z-index: 999;    background: rgb(7 7 7 / 0%);}
+span.input-err:before {content: '';position: absolute;width: 10px;height: 10px;background: #efd37d; top: -5px;left: 15px;transform: rotate(45deg);}
 </style>
   <!--script src=\"assets/js/main.js?v=4\"></script-->
 </html>
@@ -1696,7 +1532,7 @@ height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></nos
 
     public function getDebugInfo()
     {
-        return array (  936 => 609,  896 => 571,  888 => 568,  850 => 566,  848 => 565,  844 => 564,  838 => 562,  834 => 561,  826 => 556,  822 => 555,  818 => 554,  804 => 543,  799 => 541,  795 => 540,  791 => 539,  782 => 533,  767 => 521,  759 => 516,  754 => 514,  750 => 513,  746 => 512,  733 => 501,  723 => 497,  719 => 496,  715 => 495,  712 => 494,  708 => 493,  702 => 490,  698 => 488,  688 => 484,  684 => 483,  680 => 482,  677 => 481,  673 => 480,  661 => 471,  439 => 252,  434 => 250,  430 => 249,  426 => 248,  412 => 241,  403 => 234,  397 => 230,  387 => 225,  383 => 224,  376 => 222,  373 => 221,  370 => 220,  363 => 216,  358 => 214,  353 => 211,  351 => 210,  346 => 207,  344 => 206,  339 => 203,  324 => 195,  320 => 194,  316 => 193,  307 => 187,  302 => 185,  298 => 184,  294 => 183,  285 => 176,  283 => 175,  274 => 168,  264 => 164,  260 => 163,  257 => 162,  253 => 161,  246 => 157,  242 => 156,  238 => 155,  224 => 144,  220 => 143,  215 => 141,  207 => 136,  203 => 135,  162 => 101,  139 => 81,  134 => 79,  119 => 69,  90 => 43,  79 => 35,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  905 => 597,  899 => 594,  894 => 593,  892 => 592,  885 => 588,  881 => 587,  830 => 538,  822 => 535,  784 => 533,  782 => 532,  778 => 531,  772 => 529,  768 => 528,  760 => 523,  756 => 522,  752 => 521,  738 => 510,  733 => 508,  729 => 507,  725 => 506,  716 => 500,  701 => 488,  693 => 483,  688 => 481,  684 => 480,  680 => 479,  667 => 468,  657 => 464,  653 => 463,  649 => 462,  646 => 461,  642 => 460,  636 => 457,  632 => 455,  622 => 451,  618 => 450,  614 => 449,  611 => 448,  607 => 447,  595 => 438,  373 => 219,  368 => 217,  364 => 216,  360 => 215,  346 => 208,  337 => 201,  322 => 193,  318 => 192,  314 => 191,  305 => 185,  300 => 183,  296 => 182,  292 => 181,  283 => 174,  281 => 173,  272 => 166,  262 => 162,  258 => 161,  255 => 160,  251 => 159,  244 => 155,  240 => 154,  236 => 153,  222 => 142,  218 => 141,  213 => 139,  205 => 134,  201 => 133,  160 => 99,  137 => 79,  132 => 77,  117 => 67,  88 => 41,  77 => 33,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()

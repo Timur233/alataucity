@@ -1,6 +1,9 @@
 <div class="form_return">
     {% if userName %}
-    <p class='mb-1'>Спасибо, <strong>{{ userName }}</strong>!</p><p>Наш менеджер свяжется с вами в ближайшее время!</p>
+    <p class='mb-1'>{{ translater.thanks }}, <strong>{{ userName }}</strong>!</p>
+    <p>
+        {{ translater.promise }}
+    </p>
     {% if isPresent %}
     <div class="thanks-body">
         <p class="thanks-body__p mb-2">
@@ -15,8 +18,9 @@
     </div>
     {% endif %}
     {% else %}
-    <p class='mb-1'><strong>Спасибо!</strong></p><p>Наш менеджер свяжется с вами в ближайшее время!</p>
-    <a href="" class="mb-0 btn btn-gradient" data-bs-dismiss="modal" aria-label="Close">Закрыть</a>
+    <p class='mb-1'><strong>{{ translater.thanks }}!</strong></p>
+    <p>{{ translater.promise }}</p>
+    <a href="" class="mb-0 btn btn-gradient" data-bs-dismiss="modal" aria-label="Close">{{ translater.close }}</a>
     {% endif %}
 </div>
 

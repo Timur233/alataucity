@@ -9,7 +9,7 @@
         $body['form'][$input['name']] = $input['data'];
     }
 
-    $ch = curl_init('https://cms.abpx.kz/api/forms/submit/tamarixform?token=account-'.SING_TOKEN);
+    $ch = curl_init('https://cms.abpx.kz/api/forms/submit/timeform?token=account-'.SING_TOKEN);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/json' ));
@@ -20,19 +20,27 @@
 
     $responce = json_decode($responce, true);
 
+    $refer = parse_url($_SERVER['HTTP_REFERER']);
+    parse_str($refer['query'], $query);
+    $lang = $query['lang'];
+
+    $translater = getData($lang);
+    $translater = $translater['translate'];
+
     $loader = new \Twig\Loader\FilesystemLoader('views/');
     $twig = new \Twig\Environment($loader, [
         'cache' => 'cache/',
         'auto_reload' => true
     ]);
-    
+
     $viewData = array(
         'userName'    => $responce['Имя'],
+        'translater'  => $translater,
         'isPresent'   => true,
-        'presentLink' => 'https://t.me/Exclusive_q_bot?start=komfort',
-        'presentName' => 'Необходимые документы для одобрения ипотеки'
+        'presentLink' => 'https://t.me/Exclusive_q_bot?start=biznes',
+        'presentName' => '10 вопросов, которые помогут найти квартиру мечты'
     );
-    
+
     $template = $twig->load('widgets/thanks-msg.html');
     echo $template->render($viewData);
 
