@@ -52,11 +52,12 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     <link rel=\"stylesheet\" href=\"assets/css/libs/animate.css\">
     <link rel=\"stylesheet\" href=\"assets/css/all.min.css\" />
     <link rel=\"stylesheet\" href=\"assets/css/style.css?v=28\" />
+    <link rel=\"stylesheet\" href=\"assets/css/new-styles.css\" />
 
     <meta name=\"facebook-domain-verification\" content=\"0z9880hvdcrsy9upz53gffnpu7uz7l\" />
 
     ";
-        // line 16
+        // line 17
         echo ($context["site_scripts_in_head"] ?? null);
         echo "
   
@@ -64,7 +65,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
   <body class=\"nightMode\">
 
   ";
-        // line 21
+        // line 22
         echo ($context["site_scripts_in_body"] ?? null);
         echo "
   
@@ -118,7 +119,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
         <a href=\"#\" class=\"close\" onclick=\"frontend.sidebar('open'); return false\"><span></span><span></span></a>
         <div class=\"lang-switcher px-4 pb-5\">
           <a href=\"";
-        // line 72
+        // line 73
         if ((($context["lang"] ?? null) != "ru")) {
             echo "?lang=ru";
         } else {
@@ -130,7 +131,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
         }
         echo "\">RUS</a>
           <a href=\"";
-        // line 73
+        // line 74
         if ((($context["lang"] ?? null) != "kk")) {
             echo "?lang=kk";
         } else {
@@ -145,37 +146,37 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
         <ul>
           <li>
             <a href=\"#about\" onclick=\"frontend.sidebar('open');\">";
-        // line 77
+        // line 78
         echo twig_escape_filter($this->env, (($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 = ($context["translate"] ?? null)) && is_array($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4) || $__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4 instanceof ArrayAccess ? ($__internal_f607aeef2c31a95a7bf963452dff024ffaeb6aafbe4603f9ca3bec57be8633f4["about_of_project"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
           <li>
             <a href=\"#advantages\" onclick=\"frontend.sidebar('open');\">";
-        // line 80
+        // line 81
         echo twig_escape_filter($this->env, (($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 = ($context["translate"] ?? null)) && is_array($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144) || $__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144 instanceof ArrayAccess ? ($__internal_62824350bc4502ee19dbc2e99fc6bdd3bd90e7d8dd6e72f42c35efd048542144["advantages"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
           <li>
             <a href=\"#gallery\" onclick=\"frontend.sidebar('open');\">";
-        // line 83
+        // line 84
         echo twig_escape_filter($this->env, (($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b = ($context["translate"] ?? null)) && is_array($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b) || $__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b instanceof ArrayAccess ? ($__internal_1cfccaec8dd2e8578ccb026fbe7f2e7e29ac2ed5deb976639c5fc99a6ea8583b["gallery"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
           <li>
             <a href=\"#flats\" onclick=\"frontend.sidebar('open');\">";
-        // line 86
+        // line 87
         echo twig_escape_filter($this->env, (($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 = ($context["translate"] ?? null)) && is_array($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002) || $__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002 instanceof ArrayAccess ? ($__internal_68aa442c1d43d3410ea8f958ba9090f3eaa9a76f8de8fc9be4d6c7389ba28002["flats"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
           <li>
             <a href=\"#aboutOfCompany\" onclick=\"frontend.sidebar('open');\">";
-        // line 89
+        // line 90
         echo twig_escape_filter($this->env, (($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 = ($context["translate"] ?? null)) && is_array($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4) || $__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4 instanceof ArrayAccess ? ($__internal_d7fc55f1a54b629533d60b43063289db62e68921ee7a5f8de562bd9d4a2b7ad4["about_of_company"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
           <li>
             <a href=\"#contacts\" onclick=\"frontend.sidebar('open');\">";
-        // line 92
+        // line 93
         echo twig_escape_filter($this->env, (($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 = ($context["translate"] ?? null)) && is_array($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666) || $__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666 instanceof ArrayAccess ? ($__internal_01476f8db28655ee4ee02ea2d17dd5a92599be76304f08cd8bc0e05aced30666["contacts"] ?? null) : null), "html", null, true);
         echo "</a>
           </li>
@@ -184,37 +185,37 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"col-4\">
             <a href=\"https://exin.kz/\" target=\"_blank\" onclick=\"frontend.sidebar('open');\">
               <img src=\"https://cms.abpx.kz";
-        // line 98
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["exin_second_logo"] ?? null), "path", [], "any", false, false, false, 98), "html", null, true);
+        // line 99
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["exin_second_logo"] ?? null), "path", [], "any", false, false, false, 99), "html", null, true);
         echo "\" class=\"w-75 h-80\" alt=\"\">
             </a>
           </div>
           <div class=\"col-4\">
             <a href=\"#\" onclick=\"frontend.sidebar('open');\">
               <img src=\"https://cms.abpx.kz";
-        // line 103
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 103), "html", null, true);
+        // line 104
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_second_logo"] ?? null), "path", [], "any", false, false, false, 104), "html", null, true);
         echo "\" class=\"w-75 h-80\" alt=\"\">
             </a>
           </div>
           <div class=\"col-4\">
             <a href=\"#\" onclick=\"frontend.sidebar('open');\">
               <img src=\"https://cms.abpx.kz";
-        // line 108
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["halyk_second_logo"] ?? null), "path", [], "any", false, false, false, 108), "html", null, true);
+        // line 109
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["halyk_second_logo"] ?? null), "path", [], "any", false, false, false, 109), "html", null, true);
         echo "\" class=\"w-75 h-80\" alt=\"\">
             </a>
           </div>
         </div>
         <div class=\"call mt-auto\">
           <a href=\"https://instagram.com/";
-        // line 113
+        // line 114
         echo twig_escape_filter($this->env, ($context["site_insta"] ?? null), "html", null, true);
         echo "\" target=\"_blank\" class=\"insta\"><i class=\"fab fa-instagram me-2\"></i> ";
         echo twig_escape_filter($this->env, ($context["site_insta"] ?? null), "html", null, true);
         echo "</a>
           <a href=\"tel:";
-        // line 114
+        // line 115
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
         echo "\" class=\"phone\" onclick=\"frontend.sidebar('open');\"><i class=\"fas fa-phone-alt me-2\"></i> ";
         echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
@@ -224,248 +225,52 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
       </nav>
     </div>
 
-    <header class=\"position-absolute align-items-center w-100 px-xl-5\" style=\"z-index: 999\">
-      <div class=\"container-fluid\">
-        <div class=\"row\">
-          <div class=\"col d-flex\">
-            <div class=\"row align-items-center logos\">
-              <div class=\"col d-none d-sm-inline-block\">
-                <a href=\"https://exin.kz/\" target=\"_blank\">
-                  <img class=\"mw-100\" src=\"https://cms.abpx.kz";
-        // line 127
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["exin_logo"] ?? null), "path", [], "any", false, false, false, 127), "html", null, true);
-        echo "\" alt=\"\">
-                </a>
-              </div>
-              <div class=\"col\">
-                <a href=\"#home\">
-                  <img class=\"mw-100\" src=\"https://cms.abpx.kz";
-        // line 132
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 132), "html", null, true);
-        echo "\" alt=\"\">
-                </a>
-              </div>
-              <div class=\"col d-none d-sm-inline-block\">
-                <span>
-                  <img class=\"mw-100\" src=\"https://cms.abpx.kz";
-        // line 137
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["halyk_logo"] ?? null), "path", [], "any", false, false, false, 137), "html", null, true);
-        echo "\" alt=\"\">
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class=\"col-xl-6 col-xxl-7 d-none d-xl-flex align-items-center justify-content-center\">
-            <ul class=\"nav-menu left text-xxl-end text-xl-center\">
-              <li>
-                <a href=\"#about\">
-                  ";
-        // line 146
-        echo twig_escape_filter($this->env, (($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e = ($context["translate"] ?? null)) && is_array($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e) || $__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e instanceof ArrayAccess ? ($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e["about_of_project"] ?? null) : null), "html", null, true);
+    ";
+        // line 121
+        echo twig_include($this->env, $context, "widgets/_header.twig");
         echo "
-                </a>
-              </li>
-              <li>
-                <a href=\"#advantages\">
-                  ";
-        // line 151
-        echo twig_escape_filter($this->env, (($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 = ($context["translate"] ?? null)) && is_array($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52) || $__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 instanceof ArrayAccess ? ($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52["advantages"] ?? null) : null), "html", null, true);
-        echo "
-                </a>
-              </li>
-              <li>
-                <a href=\"#gallery\">
-                  ";
-        // line 156
-        echo twig_escape_filter($this->env, (($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 = ($context["translate"] ?? null)) && is_array($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136) || $__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 instanceof ArrayAccess ? ($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136["gallery"] ?? null) : null), "html", null, true);
-        echo "
-                </a>
-              </li>
-              <li>
-                <a href=\"#flats\">
-                  ";
-        // line 161
-        echo twig_escape_filter($this->env, (($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 = ($context["translate"] ?? null)) && is_array($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386) || $__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 instanceof ArrayAccess ? ($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386["flats"] ?? null) : null), "html", null, true);
-        echo "
-                </a>
-              </li>
-              <li>
-                <a href=\"#aboutOfCompany\">
-                  ";
-        // line 166
-        echo twig_escape_filter($this->env, (($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 = ($context["translate"] ?? null)) && is_array($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9) || $__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 instanceof ArrayAccess ? ($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9["about_of_company"] ?? null) : null), "html", null, true);
-        echo "
-                </a>
-              </li>
-              <li>
-                <a href=\"#contacts\">
-                  ";
-        // line 171
-        echo twig_escape_filter($this->env, (($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae = ($context["translate"] ?? null)) && is_array($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae) || $__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae instanceof ArrayAccess ? ($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae["contacts"] ?? null) : null), "html", null, true);
-        echo "
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class=\"col d-flex align-items-center justify-content-end\">
-            <div class=\"lang-switcher px-4 d-none d-sm-inline-block\">
-              <a href=\"";
-        // line 178
-        if ((($context["lang"] ?? null) != "ru")) {
-            echo "?lang=ru";
-        } else {
-            echo "#";
-        }
-        echo " \" class=\"lang-switcher__item ";
-        if ((($context["lang"] ?? null) == "ru")) {
-            echo "lang-switcher__item-active";
-        }
-        echo "\">RUS</a>
-              <a href=\"";
-        // line 179
-        if ((($context["lang"] ?? null) != "kk")) {
-            echo "?lang=kk";
-        } else {
-            echo "#";
-        }
-        echo "\" class=\"lang-switcher__item ";
-        if ((($context["lang"] ?? null) == "kk")) {
-            echo "lang-switcher__item-active";
-        }
-        echo "\">KZ</a>
-            </div>
-            <div class=\"contact-block d-//-none d-sm-inline-block\">
-              <a href=\"tel:";
-        // line 182
-        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
-        echo "\" class=\"contact-block__phone\">";
-        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
-        echo "</a>
-              <span class=\"contact-block__short-address\">";
-        // line 183
-        echo twig_escape_filter($this->env, ($context["site_short_adress"] ?? null), "html", null, true);
-        echo "</span>
-              <a href=\"\" class=\"d-none d-lg-inline-block btn btn-gradient contact-block__callback-btn\" data-bs-toggle=\"modal\" data-bs-target=\"#callbackModal\">";
-        // line 184
-        echo twig_escape_filter($this->env, (($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f = ($context["translate"] ?? null)) && is_array($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f) || $__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f instanceof ArrayAccess ? ($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f["leave_a_request"] ?? null) : null), "html", null, true);
-        echo "</a>
-            </div>
-            <a href=\"#\" class=\"mobile-phone-data d-none d-inline-block d-xl-none ps-3\" onclick=\"let phoneNumber = document.querySelector('.contact-block__phone').textContent; window.location.href = 'tel:' + phoneNumber\">
-              <i class=\"fas fa-phone\"></i>
-            </a>
-            <a href=\"#\" id=\"sidebarToggle\" class=\"d-inline-block d-xl-none ps-3\" onclick=\"frontend.sidebar(this.getAttribute('condition')); return false\">
-              <svg class=\"ham hamRotate180 ham5\" viewBox=\"0 0 100 100\" width=\"80\" style=\"width: 50px;\">
-                <path class=\"line top\" d=\"m 10,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429\"></path>
-                <path class=\"line middle\" d=\"m 70,50 h -40\"></path>
-                <path class=\"line bottom\" d=\"m 10,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429\"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <section id=\"home\" class=\"slider min-vh-100 mb-5 mb-md-0\" style=\"background-image: url('https://cms.abpx.kz";
-        // line 201
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["slide_image"] ?? null), "path", [], "any", false, false, false, 201), "html", null, true);
-        echo "')\">
-      <div class=\"container-fluid position-relative d-flex align-items-center px-3 px-md-5\">
-        <div class=\"section-slider-content\">
-          <div class=\"row\">
-            <div class=\"ms-auto col-xxl-5 col-xl-5 col-lg-7 col-md-12 px-sm-0 px-md-5 text-left slider-info\">
-              <h1>";
-        // line 206
-        echo ($context["slide_title"] ?? null);
-        echo "</h1>
-              <div class=\"slider_content\">
-                <span>";
-        // line 208
-        echo twig_escape_filter($this->env, ($context["slide_desc"] ?? null), "html", null, true);
-        echo "</span>
-                <h3>";
-        // line 209
-        echo twig_escape_filter($this->env, ($context["slide_desc_2"] ?? null), "html", null, true);
-        echo "</h3>
-              </div>
-              <div class=\"button-flats py-5\">
-                <a href=\"#flats\" class=\"btn btn-gradient btn-big\">
-                  ";
-        // line 213
-        echo twig_escape_filter($this->env, (($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40 = ($context["translate"] ?? null)) && is_array($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40) || $__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40 instanceof ArrayAccess ? ($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40["see_a_flats"] ?? null) : null), "html", null, true);
-        echo "
-                  <svg width=\"26\" height=\"16\" class=\"ms-4\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M25.707 8.707a1 1 0 000-1.414L19.343.929a1 1 0 10-1.414 1.414L23.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h25V7H0v2z\" fill=\"#fff\"></path></svg>
-                </a>
-              </div>
-              <div class=\"promo-info\">
-                <div class=\"row\">
-                  <div class=\"col-md-5 credit-persent\">
-                    <span>";
-        // line 220
-        echo twig_escape_filter($this->env, (($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f = ($context["translate"] ?? null)) && is_array($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f) || $__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f instanceof ArrayAccess ? ($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f["kredit"] ?? null) : null), "html", null, true);
-        echo "</span>
-                    <strong>";
-        // line 221
-        echo twig_escape_filter($this->env, ($context["slide_precent"] ?? null), "html", null, true);
-        echo "</strong>
-                    <span>";
-        // line 222
-        echo twig_escape_filter($this->env, (($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760 = ($context["translate"] ?? null)) && is_array($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760) || $__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760 instanceof ArrayAccess ? ($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760["annual"] ?? null) : null), "html", null, true);
-        echo "</span>
-                  </div>
-                  <div class=\"col-md-7 price-for-meter\">
-                    <span>";
-        // line 225
-        echo twig_escape_filter($this->env, (($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce = ($context["translate"] ?? null)) && is_array($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce) || $__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce instanceof ArrayAccess ? ($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce["price_for_metere"] ?? null) : null), "html", null, true);
-        echo "</span>
-                    <strong>";
-        // line 226
-        echo ($context["slide_price"] ?? null);
-        echo "</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     ";
-        // line 236
+        // line 123
+        echo twig_include($this->env, $context, "widgets/slider.twig");
+        echo "
+
+    ";
+        // line 125
         if (($context["reasons_gallery"] ?? null)) {
-            // line 237
+            // line 126
             echo "      <section id=\"reasons\" class=\"reasons pt-6 pb-6 pb-md-0\">
       <div class=\"container\">
         <h2 class=\"sectionTitle\">
           <span class=\"color\">";
-            // line 240
+            // line 129
             echo twig_escape_filter($this->env, ($context["reasons_color_title"] ?? null), "html", null, true);
             echo "</span>
           ";
-            // line 241
+            // line 130
             echo twig_escape_filter($this->env, ($context["reasons_title"] ?? null), "html", null, true);
             echo "
           <span class=\"ghostTitle\">";
-            // line 242
+            // line 131
             echo twig_escape_filter($this->env, ($context["reasons_ghost_title"] ?? null), "html", null, true);
             echo "</span>
         </h2>
         <div class=\"gallery-swiper swiper-container py-4\">
           <div class=\"swiper-wrapper\">
             ";
-            // line 246
+            // line 135
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["reasons_gallery"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 247
+                // line 136
                 echo "              <div class=\"swiper-slide\">
                 <a data-fslightbox=\"first-lightbox\" href=\"https://cms.abpx.kz";
-                // line 248
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 248), "html", null, true);
+                // line 137
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 137), "html", null, true);
                 echo "\">
                   <img src=\"https://cms.abpx.kz";
-                // line 249
-                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 249), "html", null, true);
+                // line 138
+                echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 138), "html", null, true);
                 echo "\" alt=\"\">
                 </a>
               </div>
@@ -474,7 +279,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 253
+            // line 142
             echo "          </div>
         <div class=\"swiper-button-next\"></div>
       \t<div class=\"swiper-button-prev\"></div>
@@ -483,12 +288,12 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     </section>
     ";
         }
-        // line 260
+        // line 149
         echo "  
   \t";
-        // line 261
+        // line 150
         if (($context["discounst"] ?? null)) {
-            // line 262
+            // line 151
             echo "    <section id=\"discount\" class=\"discount pt-0 pb-6 pt-md-6 pb-md-0\">
       <div class=\"container\">
         <div class=\"row\">
@@ -497,20 +302,20 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
             <div class=\"about_block\">
               <h2 class=\"sectionTitle\">
                 ";
-            // line 269
+            // line 158
             echo twig_escape_filter($this->env, ($context["discounst_title"] ?? null), "html", null, true);
             echo "
                 <span class=\"color\">";
-            // line 270
+            // line 159
             echo twig_escape_filter($this->env, ($context["discounst_color_title"] ?? null), "html", null, true);
             echo "</span>
                 <span class=\"ghostTitle\">";
-            // line 271
+            // line 160
             echo twig_escape_filter($this->env, ($context["discounst_ghost_title"] ?? null), "html", null, true);
             echo "</span>
               </h2>
               ";
-            // line 273
+            // line 162
             echo ($context["discounst_text"] ?? null);
             echo "
             </div>
@@ -519,16 +324,16 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"col-12 text-center mt-3\">
               <picture>
                 <source media=\"(max-width: 550px)\" srcset=\"https://cms.abpx.kz";
-            // line 279
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_phone"] ?? null), "path", [], "any", false, false, false, 279), "html", null, true);
+            // line 168
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_phone"] ?? null), "path", [], "any", false, false, false, 168), "html", null, true);
             echo "\">
                 <source media=\"(max-width: 768px)\" srcset=\"https://cms.abpx.kz";
-            // line 280
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_ipad"] ?? null), "path", [], "any", false, false, false, 280), "html", null, true);
+            // line 169
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image_ipad"] ?? null), "path", [], "any", false, false, false, 169), "html", null, true);
             echo "\">
                 <img src=\"https://cms.abpx.kz";
-            // line 281
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image"] ?? null), "path", [], "any", false, false, false, 281), "html", null, true);
+            // line 170
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["discounst_image"] ?? null), "path", [], "any", false, false, false, 170), "html", null, true);
             echo "\" class=\"w-100\" alt=\"";
             echo twig_escape_filter($this->env, ($context["discounst_title"] ?? null), "html", null, true);
             echo " ";
@@ -542,7 +347,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     </section>
     ";
         }
-        // line 289
+        // line 178
         echo "
     <section id=\"about\" class=\"aboutUsBlock pb-6 pt-0 py-md-6\">
       <div class=\"container\">
@@ -551,8 +356,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"col-md-12 col-lg-6 order-1 order-md-1 order-lg-0 mt-5 mt-md-5 mb-lg-0 mt-lg-0\">
             <div class=\"img-block\">
               <img src=\"https://cms.abpx.kz";
-        // line 296
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["about_image"] ?? null), "path", [], "any", false, false, false, 296), "html", null, true);
+        // line 185
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["about_image"] ?? null), "path", [], "any", false, false, false, 185), "html", null, true);
         echo "\" alt=\"";
         echo twig_escape_filter($this->env, ($context["about_title"] ?? null), "html", null, true);
         echo " ";
@@ -565,20 +370,20 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
             <div class=\"about_block\">
               <h2 class=\"sectionTitle\">
                 ";
-        // line 303
+        // line 192
         echo twig_escape_filter($this->env, ($context["about_title"] ?? null), "html", null, true);
         echo "
                 <span class=\"color\">";
-        // line 304
+        // line 193
         echo twig_escape_filter($this->env, ($context["about_title_color"] ?? null), "html", null, true);
         echo "</span>
                 <span class=\"ghostTitle\">";
-        // line 305
+        // line 194
         echo twig_escape_filter($this->env, ($context["about_ghost_title"] ?? null), "html", null, true);
         echo "</span>
               </h2>
               ";
-        // line 307
+        // line 196
         echo ($context["about_desc"] ?? null);
         echo "
               <a href=\"#flats\" class=\"btn btn-gradient mt-3\">Выбрать квартиру</a>
@@ -590,57 +395,16 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
       </div>
     </section>
 
-    <section id=\"callback\" class=\"callback pb-6\">
-      <div class=\"container\">
-        <div class=\"row\">
-          <div class=\"col-12\">
-            <form class=\"mb-0 dark-form\" action=\"\">
-              <h2 class=\"sectionTitle\">
-                Оставить
-                <span class=\"color\">заявку</span>
-              </h2>
-              <div class=\"row position-relative py-4\">
-                <div class=\"col-md-4 col-xl-3 py-3\">
-                  <div class=\"form-group\">
-                    <i class=\"fa fa-user\"></i>
-                    <input type=\"text\" class=\"form-control\" id=\"staticTopFormName\" name=\"name\" placeholder=\"";
-        // line 330
-        echo twig_escape_filter($this->env, (($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b = ($context["translate"] ?? null)) && is_array($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b) || $__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b instanceof ArrayAccess ? ($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b["name"] ?? null) : null), "html", null, true);
-        echo "\" fieldname=\"Имя\">
-                  </div>
-                </div>
-                <div class=\"col-md-4 col-xl-3 py-3\">
-                  <div class=\"form-group\">
-                    <i class=\"fa fa-phone\"></i>
-                    <input type=\"text\" class=\"form-control\" id=\"staticTopFormPhone\" name=\"phone\" placeholder=\"";
-        // line 336
-        echo twig_escape_filter($this->env, (($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c = ($context["translate"] ?? null)) && is_array($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c) || $__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c instanceof ArrayAccess ? ($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c["phone"] ?? null) : null), "html", null, true);
-        echo "\" fieldname=\"Телефон\" required=\"required\">
-                  </div>
-                </div>
-                <div class=\"col-md-4 col-xl-3 form-bg py-3\">
-                  <a href=\"#\" class=\"btn btn-gradient float-start sendFormButton\" onclick=\"frontend.form(this); return false\">";
-        // line 340
-        echo twig_escape_filter($this->env, (($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972 = ($context["translate"] ?? null)) && is_array($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972) || $__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972 instanceof ArrayAccess ? ($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972["call_back_me"] ?? null) : null), "html", null, true);
-        echo " <i class=\"fa fa-chevron-right ms-2\"></i></a>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id=\"advantages\" class=\"advantages pb-6\">
       <div class=\"container position-relative\">
 
         <h2 class=\"sectionTitle text-center mb-5\">
           ";
-        // line 353
+        // line 210
         echo twig_escape_filter($this->env, ($context["advantages_title"] ?? null), "html", null, true);
         echo "
           <span class=\"color\">";
-        // line 354
+        // line 211
         echo twig_escape_filter($this->env, ($context["advantages_title_color"] ?? null), "html", null, true);
         echo "</span>
         </h2>
@@ -649,20 +413,20 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"swiper-wrapper\">
 
             ";
-        // line 360
+        // line 217
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["advantages_items"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 361
+            // line 218
             echo "
             <div class=\"swiper-slide advantage-item\">
                 <div class=\"advantage-img\" style=\"background-image: url(https://cms.abpx.kz";
-            // line 363
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 363)) && is_array($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216) || $__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216 instanceof ArrayAccess ? ($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216[0] ?? null) : null), "settings", [], "any", false, false, false, 363), "image", [], "any", false, false, false, 363), "path", [], "any", false, false, false, 363), "html", null, true);
+            // line 220
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 220)) && is_array($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e) || $__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e instanceof ArrayAccess ? ($__internal_01c35b74bd85735098add188b3f8372ba465b232ab8298cb582c60f493d3c22e[0] ?? null) : null), "settings", [], "any", false, false, false, 220), "image", [], "any", false, false, false, 220), "path", [], "any", false, false, false, 220), "html", null, true);
             echo ")\"></div>
                 <h4>";
-            // line 364
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 364)) && is_array($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0) || $__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0 instanceof ArrayAccess ? ($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0[1] ?? null) : null), "settings", [], "any", false, false, false, 364), "text", [], "any", false, false, false, 364), "html", null, true);
+            // line 221
+            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 221)) && is_array($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52) || $__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52 instanceof ArrayAccess ? ($__internal_63ad1f9a2bf4db4af64b010785e9665558fdcac0e8db8b5b413ed986c62dbb52[1] ?? null) : null), "settings", [], "any", false, false, false, 221), "text", [], "any", false, false, false, 221), "html", null, true);
             echo "</h4>
             </div>
 
@@ -671,7 +435,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 368
+        // line 225
         echo "
           </div>
           <div class=\"swiper-pagination\"></div>
@@ -691,12 +455,12 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
             <img src=\"assets/img/map/logo2%201.svg\" alt=\"logo\" class=\"promo__logo\">
             <h2>4 км</h2>
             <h3 class=\"promo__separator\">";
-        // line 386
-        echo twig_escape_filter($this->env, (($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c = ($context["translate"] ?? null)) && is_array($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c) || $__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c instanceof ArrayAccess ? ($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c["cso"] ?? null) : null), "html", null, true);
+        // line 243
+        echo twig_escape_filter($this->env, (($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 = ($context["translate"] ?? null)) && is_array($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136) || $__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136 instanceof ArrayAccess ? ($__internal_f10a4cc339617934220127f034125576ed229e948660ebac906a15846d52f136["cso"] ?? null) : null), "html", null, true);
         echo "</h3>
             <h4><span class=\"promo__addres\">";
-        // line 387
-        echo twig_escape_filter($this->env, (($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f = ($context["translate"] ?? null)) && is_array($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f) || $__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f instanceof ArrayAccess ? ($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f["kabanbay_batyr"] ?? null) : null), "html", null, true);
+        // line 244
+        echo twig_escape_filter($this->env, (($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 = ($context["translate"] ?? null)) && is_array($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386) || $__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386 instanceof ArrayAccess ? ($__internal_887a873a4dc3cf8bd4f99c487b4c7727999c350cc3a772414714e49a195e4386["kabanbay_batyr"] ?? null) : null), "html", null, true);
         echo "</span><span class=\"promo__number\">104</span></h4>
           </div>
 
@@ -714,36 +478,36 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"map-data__map-informer\">
             <img src=\"assets/img/map/childs.svg\" alt=\"\">
             <h4>";
-        // line 403
-        echo twig_escape_filter($this->env, (($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc = ($context["translate"] ?? null)) && is_array($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc) || $__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc instanceof ArrayAccess ? ($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc["kindergarden"] ?? null) : null), "html", null, true);
+        // line 260
+        echo twig_escape_filter($this->env, (($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 = ($context["translate"] ?? null)) && is_array($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9) || $__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9 instanceof ArrayAccess ? ($__internal_d527c24a729d38501d770b40a0d25e1ce8a7f0bff897cc4f8f449ba71fcff3d9["kindergarden"] ?? null) : null), "html", null, true);
         echo "</h4>
           </div>
           <div class=\"map-data__map-informer\">
             <img src=\"assets/img/map/school.svg\" alt=\"\">
             <h4>";
-        // line 407
-        echo twig_escape_filter($this->env, (($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55 = ($context["translate"] ?? null)) && is_array($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55) || $__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55 instanceof ArrayAccess ? ($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55["school"] ?? null) : null), "html", null, true);
+        // line 264
+        echo twig_escape_filter($this->env, (($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae = ($context["translate"] ?? null)) && is_array($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae) || $__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae instanceof ArrayAccess ? ($__internal_f6dde3a1020453fdf35e718e94f93ce8eb8803b28cc77a665308e14bbe8572ae["school"] ?? null) : null), "html", null, true);
         echo "</h4>
           </div>
           <div class=\"map-data__map-informer\">
             <img src=\"assets/img/map/med.svg\" alt=\"\">
             <h4>";
-        // line 411
-        echo twig_escape_filter($this->env, (($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba = ($context["translate"] ?? null)) && is_array($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba) || $__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba instanceof ArrayAccess ? ($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba["medical"] ?? null) : null), "html", null, true);
+        // line 268
+        echo twig_escape_filter($this->env, (($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f = ($context["translate"] ?? null)) && is_array($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f) || $__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f instanceof ArrayAccess ? ($__internal_25c0fab8152b8dd6b90603159c0f2e8a936a09ab76edb5e4d7bc95d9a8d2dc8f["medical"] ?? null) : null), "html", null, true);
         echo "</h4>
           </div>
           <div class=\"map-data__map-informer\">
             <img src=\"assets/img/map/fitnes.svg\" alt=\"\">
             <h4>";
-        // line 415
-        echo twig_escape_filter($this->env, (($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78 = ($context["translate"] ?? null)) && is_array($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78) || $__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78 instanceof ArrayAccess ? ($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78["fitnes"] ?? null) : null), "html", null, true);
+        // line 272
+        echo twig_escape_filter($this->env, (($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40 = ($context["translate"] ?? null)) && is_array($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40) || $__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40 instanceof ArrayAccess ? ($__internal_f769f712f3484f00110c86425acea59f5af2752239e2e8596bcb6effeb425b40["fitnes"] ?? null) : null), "html", null, true);
         echo "</h4>
           </div>
           <div class=\"map-data__map-informer\">
             <img src=\"assets/img/map/mall.svg\" alt=\"\">
             <h4>";
-        // line 419
-        echo twig_escape_filter($this->env, (($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de = ($context["translate"] ?? null)) && is_array($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de) || $__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de instanceof ArrayAccess ? ($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de["mall"] ?? null) : null), "html", null, true);
+        // line 276
+        echo twig_escape_filter($this->env, (($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f = ($context["translate"] ?? null)) && is_array($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f) || $__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f instanceof ArrayAccess ? ($__internal_98e944456c0f58b2585e4aa36e3a7e43f4b7c9038088f0f056004af41f4a007f["mall"] ?? null) : null), "html", null, true);
         echo "</h4>
           </div>
         </div>
@@ -756,8 +520,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"col-12 col-lg-6 mb-4 mb-lg-0\">
             <h2 class=\"sectionTitle\">Выбор <span class=\"color\">квартиры</span></h2>
             <p class=\"mb-2\">";
-        // line 430
-        echo twig_escape_filter($this->env, (($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828 = ($context["translate"] ?? null)) && is_array($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828) || $__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828 instanceof ArrayAccess ? ($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828["count_rooms"] ?? null) : null), "html", null, true);
+        // line 287
+        echo twig_escape_filter($this->env, (($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760 = ($context["translate"] ?? null)) && is_array($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760) || $__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760 instanceof ArrayAccess ? ($__internal_a06a70691a7ca361709a372174fa669f5ee1c1e4ed302b3a5b61c10c80c02760["count_rooms"] ?? null) : null), "html", null, true);
         echo ":</p>
             <div id=\"roomButtons\" class=\"d-inline-block w-100\">
               <a class=\"btn btn-outline-shahar me-2 mb-3 rooms\" data-filter=\"1\" href=\"#\">1 комнатные</a>
@@ -766,8 +530,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
               <a class=\"btn btn-outline-shahar me-2 mb-3 rooms\" data-filter=\"4\" href=\"#\">4-х комнатные</a>
             </div>
             <p class=\"mb-2\">";
-        // line 437
-        echo twig_escape_filter($this->env, (($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd = ($context["translate"] ?? null)) && is_array($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd) || $__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd instanceof ArrayAccess ? ($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd["floor"] ?? null) : null), "html", null, true);
+        // line 294
+        echo twig_escape_filter($this->env, (($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce = ($context["translate"] ?? null)) && is_array($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce) || $__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce instanceof ArrayAccess ? ($__internal_653499042eb14fd8415489ba6fa87c1e85cff03392e9f57b26d0da09b9be82ce["floor"] ?? null) : null), "html", null, true);
         echo ":</p>
             <div id=\"floorButtons\" class=\"d-inline-block w-100\">
               <a
@@ -844,8 +608,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
               >
             </div>
             <p class=\"mb-2\">";
-        // line 512
-        echo twig_escape_filter($this->env, (($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6 = ($context["translate"] ?? null)) && is_array($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6) || $__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6 instanceof ArrayAccess ? ($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6["square"] ?? null) : null), "html", null, true);
+        // line 369
+        echo twig_escape_filter($this->env, (($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b = ($context["translate"] ?? null)) && is_array($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b) || $__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b instanceof ArrayAccess ? ($__internal_ba9f0a3bb95c082f61c9fbf892a05514d732703d52edc77b51f2e6284135900b["square"] ?? null) : null), "html", null, true);
         echo ":</p>
             <div id=\"squareButtons\" class=\"d-inline-block w-100\">
               <a
@@ -969,7 +733,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
 
       <script type=\"text/javascript\">
         var offersAll = ";
-        // line 634
+        // line 491
         echo ($context["offers"] ?? null);
         echo "
       </script>
@@ -986,8 +750,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
                 <div class=\"form-group\">
                   <i class=\"fa fa-user\"></i>
                   <input type=\"text\" class=\"form-control\" id=\"staticTopFormNameBottom\" name=\"name\" placeholder=\"";
-        // line 648
-        echo twig_escape_filter($this->env, (($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855 = ($context["translate"] ?? null)) && is_array($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855) || $__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855 instanceof ArrayAccess ? ($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855["name"] ?? null) : null), "html", null, true);
+        // line 505
+        echo twig_escape_filter($this->env, (($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c = ($context["translate"] ?? null)) && is_array($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c) || $__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c instanceof ArrayAccess ? ($__internal_73db8eef4d2582468dab79a6b09c77ce3b48675a610afd65a1f325b68804a60c["name"] ?? null) : null), "html", null, true);
         echo "\" fieldname=\"Имя\">
                 </div>
               </div>
@@ -995,15 +759,15 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
                 <div class=\"form-group\">
                   <i class=\"fa fa-phone\"></i>
                   <input type=\"text\" class=\"form-control\" id=\"staticTopFormPhoneBottom\" name=\"phone\" placeholder=\"";
-        // line 654
-        echo twig_escape_filter($this->env, (($__internal_0228c5445a74540c89ea8a758478d405796357800f8af831a7f7e1e2c0159d9b = ($context["translate"] ?? null)) && is_array($__internal_0228c5445a74540c89ea8a758478d405796357800f8af831a7f7e1e2c0159d9b) || $__internal_0228c5445a74540c89ea8a758478d405796357800f8af831a7f7e1e2c0159d9b instanceof ArrayAccess ? ($__internal_0228c5445a74540c89ea8a758478d405796357800f8af831a7f7e1e2c0159d9b["phone"] ?? null) : null), "html", null, true);
+        // line 511
+        echo twig_escape_filter($this->env, (($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972 = ($context["translate"] ?? null)) && is_array($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972) || $__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972 instanceof ArrayAccess ? ($__internal_d8ad5934f1874c52fa2ac9a4dfae52038b39b8b03cfc82eeb53de6151d883972["phone"] ?? null) : null), "html", null, true);
         echo "\" fieldname=\"Телефон\" required=\"required\">
                 </div>
               </div>
               <div class=\"col-md-4 col-xl-3 form-bg py-3\">
                 <a href=\"#\" class=\"btn btn-gradient float-start sendFormButton\" onclick=\"frontend.form(this); return false\">";
-        // line 658
-        echo twig_escape_filter($this->env, (($__internal_6fb04c4457ec9ffa7dd6fd2300542be8b961b6e5f7858a80a282f47b43ddae5f = ($context["translate"] ?? null)) && is_array($__internal_6fb04c4457ec9ffa7dd6fd2300542be8b961b6e5f7858a80a282f47b43ddae5f) || $__internal_6fb04c4457ec9ffa7dd6fd2300542be8b961b6e5f7858a80a282f47b43ddae5f instanceof ArrayAccess ? ($__internal_6fb04c4457ec9ffa7dd6fd2300542be8b961b6e5f7858a80a282f47b43ddae5f["call_back_me"] ?? null) : null), "html", null, true);
+        // line 515
+        echo twig_escape_filter($this->env, (($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216 = ($context["translate"] ?? null)) && is_array($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216) || $__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216 instanceof ArrayAccess ? ($__internal_df39c71428eaf37baa1ea2198679e0077f3699bdd31bb5ba10d084710b9da216["call_back_me"] ?? null) : null), "html", null, true);
         echo " <i class=\"fa fa-chevron-right ms-2\"></i></a>
               </div>
             </div>
@@ -1013,358 +777,28 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     </div>
   </section>
 
-    <section id=\"gallery\" class=\"gallery pb-6\">
-      <div class=\"container\">
-        <h2 class=\"sectionTitle mb-2 mb-md-5\">
-          ";
-        // line 670
-        echo twig_escape_filter($this->env, ($context["gallery_title"] ?? null), "html", null, true);
+    ";
+        // line 524
+        echo twig_include($this->env, $context, "widgets/gallery.twig");
         echo "
-          <span class=\"color\">";
-        // line 671
-        echo twig_escape_filter($this->env, ($context["gallery_color_title"] ?? null), "html", null, true);
-        echo "</span>
-        </h2>
-        <div class=\"gallery__items d-none d-md-flex\">
-          <div class=\"wrap\">
-            <a href=\"https://cms.abpx.kz";
-        // line 675
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_417a1a95b289c75779f33186a6dc0b71d01f257b68beae7dcb9d2d769acca0e0 = ($context["gallery_items"] ?? null)) && is_array($__internal_417a1a95b289c75779f33186a6dc0b71d01f257b68beae7dcb9d2d769acca0e0) || $__internal_417a1a95b289c75779f33186a6dc0b71d01f257b68beae7dcb9d2d769acca0e0 instanceof ArrayAccess ? ($__internal_417a1a95b289c75779f33186a6dc0b71d01f257b68beae7dcb9d2d769acca0e0[0] ?? null) : null), "path", [], "any", false, false, false, 675), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 1\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_af3439635eb343262861f05093b3dcce5d4dae1e20a47bc25a2eef28135b0d55 = ($context["gallery_items"] ?? null)) && is_array($__internal_af3439635eb343262861f05093b3dcce5d4dae1e20a47bc25a2eef28135b0d55) || $__internal_af3439635eb343262861f05093b3dcce5d4dae1e20a47bc25a2eef28135b0d55 instanceof ArrayAccess ? ($__internal_af3439635eb343262861f05093b3dcce5d4dae1e20a47bc25a2eef28135b0d55[0] ?? null) : null), "path", [], "any", false, false, false, 675), "html", null, true);
-        echo "')\"></a>
-            <a href=\"https://cms.abpx.kz";
-        // line 676
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_b16f7904bcaaa7a87404cbf85addc7a8645dff94eef4e8ae7182b86e3638e76a = ($context["gallery_items"] ?? null)) && is_array($__internal_b16f7904bcaaa7a87404cbf85addc7a8645dff94eef4e8ae7182b86e3638e76a) || $__internal_b16f7904bcaaa7a87404cbf85addc7a8645dff94eef4e8ae7182b86e3638e76a instanceof ArrayAccess ? ($__internal_b16f7904bcaaa7a87404cbf85addc7a8645dff94eef4e8ae7182b86e3638e76a[1] ?? null) : null), "path", [], "any", false, false, false, 676), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 2\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_462377748602ccf3a44a10ced4240983cec8df1ad86ab53e582fcddddb98fc88 = ($context["gallery_items"] ?? null)) && is_array($__internal_462377748602ccf3a44a10ced4240983cec8df1ad86ab53e582fcddddb98fc88) || $__internal_462377748602ccf3a44a10ced4240983cec8df1ad86ab53e582fcddddb98fc88 instanceof ArrayAccess ? ($__internal_462377748602ccf3a44a10ced4240983cec8df1ad86ab53e582fcddddb98fc88[1] ?? null) : null), "path", [], "any", false, false, false, 676), "html", null, true);
-        echo "')\"></a>
-            <a href=\"https://cms.abpx.kz";
-        // line 677
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_be1db6a1ea9fa5c04c40f99df0ec5af053ca391863fc6256c5c4ee249724f758 = ($context["gallery_items"] ?? null)) && is_array($__internal_be1db6a1ea9fa5c04c40f99df0ec5af053ca391863fc6256c5c4ee249724f758) || $__internal_be1db6a1ea9fa5c04c40f99df0ec5af053ca391863fc6256c5c4ee249724f758 instanceof ArrayAccess ? ($__internal_be1db6a1ea9fa5c04c40f99df0ec5af053ca391863fc6256c5c4ee249724f758[2] ?? null) : null), "path", [], "any", false, false, false, 677), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 3\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_6e6eda1691934a8f5855a3221f5a9f036391304a5cda73a3a2009f2961a84c35 = ($context["gallery_items"] ?? null)) && is_array($__internal_6e6eda1691934a8f5855a3221f5a9f036391304a5cda73a3a2009f2961a84c35) || $__internal_6e6eda1691934a8f5855a3221f5a9f036391304a5cda73a3a2009f2961a84c35 instanceof ArrayAccess ? ($__internal_6e6eda1691934a8f5855a3221f5a9f036391304a5cda73a3a2009f2961a84c35[2] ?? null) : null), "path", [], "any", false, false, false, 677), "html", null, true);
-        echo "')\"></a>
-          </div>
-            <a href=\"https://cms.abpx.kz";
-        // line 679
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_51c633083c79004f3cb5e9e2b2f3504f650f1561800582801028bcbcf733a06b = ($context["gallery_items"] ?? null)) && is_array($__internal_51c633083c79004f3cb5e9e2b2f3504f650f1561800582801028bcbcf733a06b) || $__internal_51c633083c79004f3cb5e9e2b2f3504f650f1561800582801028bcbcf733a06b instanceof ArrayAccess ? ($__internal_51c633083c79004f3cb5e9e2b2f3504f650f1561800582801028bcbcf733a06b[3] ?? null) : null), "path", [], "any", false, false, false, 679), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 4\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_064553f1273f2ea50405f85092d06733f3f2fe5d0fc42fda135e1fdc91ff26ae = ($context["gallery_items"] ?? null)) && is_array($__internal_064553f1273f2ea50405f85092d06733f3f2fe5d0fc42fda135e1fdc91ff26ae) || $__internal_064553f1273f2ea50405f85092d06733f3f2fe5d0fc42fda135e1fdc91ff26ae instanceof ArrayAccess ? ($__internal_064553f1273f2ea50405f85092d06733f3f2fe5d0fc42fda135e1fdc91ff26ae[3] ?? null) : null), "path", [], "any", false, false, false, 679), "html", null, true);
-        echo "')\"></a>
-            <a href=\"https://cms.abpx.kz";
-        // line 680
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_7bef02f75e2984f8c7fcd4fd7871e286c87c0fdcb248271a136b01ac6dd5dd54 = ($context["gallery_items"] ?? null)) && is_array($__internal_7bef02f75e2984f8c7fcd4fd7871e286c87c0fdcb248271a136b01ac6dd5dd54) || $__internal_7bef02f75e2984f8c7fcd4fd7871e286c87c0fdcb248271a136b01ac6dd5dd54 instanceof ArrayAccess ? ($__internal_7bef02f75e2984f8c7fcd4fd7871e286c87c0fdcb248271a136b01ac6dd5dd54[4] ?? null) : null), "path", [], "any", false, false, false, 680), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 5\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_d6ae6b41786cc4be7778386d06cb288c8e6ffd74e055cfed45d7a5c8854d0c8f = ($context["gallery_items"] ?? null)) && is_array($__internal_d6ae6b41786cc4be7778386d06cb288c8e6ffd74e055cfed45d7a5c8854d0c8f) || $__internal_d6ae6b41786cc4be7778386d06cb288c8e6ffd74e055cfed45d7a5c8854d0c8f instanceof ArrayAccess ? ($__internal_d6ae6b41786cc4be7778386d06cb288c8e6ffd74e055cfed45d7a5c8854d0c8f[4] ?? null) : null), "path", [], "any", false, false, false, 680), "html", null, true);
-        echo "')\"></a>
-            <a href=\"https://cms.abpx.kz";
-        // line 681
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_1dcdec7ec31e102fbfe45103ea3599c92c8609311e43d40ca0d95d0369434327 = ($context["gallery_items"] ?? null)) && is_array($__internal_1dcdec7ec31e102fbfe45103ea3599c92c8609311e43d40ca0d95d0369434327) || $__internal_1dcdec7ec31e102fbfe45103ea3599c92c8609311e43d40ca0d95d0369434327 instanceof ArrayAccess ? ($__internal_1dcdec7ec31e102fbfe45103ea3599c92c8609311e43d40ca0d95d0369434327[5] ?? null) : null), "path", [], "any", false, false, false, 681), "html", null, true);
-        echo "\" data-fslightbox=\"gallery__items\" class=\"gallery__item 6\" style=\"background-image: url('https://cms.abpx.kz";
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, (($__internal_891ba2f942018e94e4bfa8069988f305bbaad7f54a64aeee069787f1084a9412 = ($context["gallery_items"] ?? null)) && is_array($__internal_891ba2f942018e94e4bfa8069988f305bbaad7f54a64aeee069787f1084a9412) || $__internal_891ba2f942018e94e4bfa8069988f305bbaad7f54a64aeee069787f1084a9412 instanceof ArrayAccess ? ($__internal_891ba2f942018e94e4bfa8069988f305bbaad7f54a64aeee069787f1084a9412[5] ?? null) : null), "path", [], "any", false, false, false, 681), "html", null, true);
-        echo "')\"></a>
-        </div>
-
-        <div class=\"gallery-swiper swiper-container d-md-none\">
-          <div class=\"swiper-wrapper\">
-            ";
-        // line 686
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["gallery_items"] ?? null));
-        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 687
-            echo "              <div class=\"swiper-slide gallery-item\">
-                <a href=\"https://cms.abpx.kz";
-            // line 688
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 688), "html", null, true);
-            echo "\" class=\"gallery-img\" style=\"background-image: url(https://cms.abpx.kz";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["item"], "path", [], "any", false, false, false, 688), "html", null, true);
-            echo ")\" data-fslightbox=\"gallery__items\"></a>
-              </div>
-            ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 691
-        echo "          </div>
-          <div class=\"swiper-button-next gallery-next\"></div>
-          <div class=\"swiper-button-prev gallery-prev\"></div>
-        </div>
-
-      </div>
-    </section>
-
-    <section id=\"buildingSteps\" class=\"buildingSteps pb-6\">
-      <div class=\"container\">
-
-        <h2 class=\"sectionTitle mb-2 mb-md-5\">
-          ";
-        // line 703
-        echo twig_escape_filter($this->env, ($context["steps_title"] ?? null), "html", null, true);
-        echo "
-          <span class=\"color\">";
-        // line 704
-        echo twig_escape_filter($this->env, ($context["steps_color_title"] ?? null), "html", null, true);
-        echo "</span>
-        </h2>
-
-      </div>
-
-      <div class=\"container-fluid\">
-
-        <div class=\"steps-swiper swiper-container py-4\">
-          <div class=\"swiper-wrapper\">
-            ";
-        // line 713
-        $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["steps_items"] ?? null));
-        foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-            // line 714
-            echo "            <div class=\"swiper-slide\" style=\"background-image: url(https://cms.abpx.kz";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_694b5f53081640f33aab1567e85e28c247e6a7c4674010716df6de8eae4819e9 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 714)) && is_array($__internal_694b5f53081640f33aab1567e85e28c247e6a7c4674010716df6de8eae4819e9) || $__internal_694b5f53081640f33aab1567e85e28c247e6a7c4674010716df6de8eae4819e9 instanceof ArrayAccess ? ($__internal_694b5f53081640f33aab1567e85e28c247e6a7c4674010716df6de8eae4819e9[2] ?? null) : null), "settings", [], "any", false, false, false, 714), "image", [], "any", false, false, false, 714), "path", [], "any", false, false, false, 714), "html", null, true);
-            echo ")\">
-                <div class=\"step-information\">
-                  <h3>";
-            // line 716
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_91b272a21580197773f482962c8b92637a641a749832ee390d7d386a58d1912e = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 716)) && is_array($__internal_91b272a21580197773f482962c8b92637a641a749832ee390d7d386a58d1912e) || $__internal_91b272a21580197773f482962c8b92637a641a749832ee390d7d386a58d1912e instanceof ArrayAccess ? ($__internal_91b272a21580197773f482962c8b92637a641a749832ee390d7d386a58d1912e[0] ?? null) : null), "settings", [], "any", false, false, false, 716), "text", [], "any", false, false, false, 716), "html", null, true);
-            echo "</h3>
-                  ";
-            // line 717
-            if (twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_7f8d0071642f16d6b4720f8eef58ffd71faf0c4d7a772c0eb6842d5e9d901ca5 = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 717)) && is_array($__internal_7f8d0071642f16d6b4720f8eef58ffd71faf0c4d7a772c0eb6842d5e9d901ca5) || $__internal_7f8d0071642f16d6b4720f8eef58ffd71faf0c4d7a772c0eb6842d5e9d901ca5 instanceof ArrayAccess ? ($__internal_7f8d0071642f16d6b4720f8eef58ffd71faf0c4d7a772c0eb6842d5e9d901ca5[1] ?? null) : null), "settings", [], "any", false, false, false, 717), "gallery", [], "any", false, false, false, 717)) {
-                // line 718
-                echo "                    <a href=\"#\" class=\"btn btn-gradient\" data-gallery-images=\"";
-                $context['_parent'] = $context;
-                $context['_seq'] = twig_ensure_traversable(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, (($__internal_0aa0713b35e28227396d65db75a1a4277b081ff4e08585143330919af9d1bf0a = twig_get_attribute($this->env, $this->source, $context["item"], "children", [], "any", false, false, false, 718)) && is_array($__internal_0aa0713b35e28227396d65db75a1a4277b081ff4e08585143330919af9d1bf0a) || $__internal_0aa0713b35e28227396d65db75a1a4277b081ff4e08585143330919af9d1bf0a instanceof ArrayAccess ? ($__internal_0aa0713b35e28227396d65db75a1a4277b081ff4e08585143330919af9d1bf0a[1] ?? null) : null), "settings", [], "any", false, false, false, 718), "gallery", [], "any", false, false, false, 718));
-                $context['loop'] = [
-                  'parent' => $context['_parent'],
-                  'index0' => 0,
-                  'index'  => 1,
-                  'first'  => true,
-                ];
-                if (is_array($context['_seq']) || (is_object($context['_seq']) && $context['_seq'] instanceof \Countable)) {
-                    $length = count($context['_seq']);
-                    $context['loop']['revindex0'] = $length - 1;
-                    $context['loop']['revindex'] = $length;
-                    $context['loop']['length'] = $length;
-                    $context['loop']['last'] = 1 === $length;
-                }
-                foreach ($context['_seq'] as $context["_key"] => $context["img"]) {
-                    echo "https://cms.abpx.kz";
-                    echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, $context["img"], "path", [], "any", false, false, false, 718), "html", null, true);
-                    if ((twig_get_attribute($this->env, $this->source, $context["loop"], "last", [], "any", false, false, false, 718) == false)) {
-                        echo ",";
-                    }
-                    ++$context['loop']['index0'];
-                    ++$context['loop']['index'];
-                    $context['loop']['first'] = false;
-                    if (isset($context['loop']['length'])) {
-                        --$context['loop']['revindex0'];
-                        --$context['loop']['revindex'];
-                        $context['loop']['last'] = 0 === $context['loop']['revindex0'];
-                    }
-                }
-                $_parent = $context['_parent'];
-                unset($context['_seq'], $context['_iterated'], $context['_key'], $context['img'], $context['_parent'], $context['loop']);
-                $context = array_intersect_key($context, $_parent) + $_parent;
-                echo "\"  onclick=\"frontend.lightBox(this.getAttribute('data-gallery-images')); return false\">Открыть</a>
-                  ";
-            }
-            // line 720
-            echo "                </div>
-            </div>
-            ";
-        }
-        $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
-        $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 723
-        echo "          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section id=\"aboutOfCompany\" class=\"aboutOfCompany pb-6\">
-      <div class=\"container\">
-        <h2 class=\"sectionTitle mt-0 mt-md-5\">
-          ";
-        // line 733
-        echo twig_escape_filter($this->env, ($context["about_of_company_title"] ?? null), "html", null, true);
-        echo "
-          <span class=\"color\">";
-        // line 734
-        echo twig_escape_filter($this->env, ($context["about_of_company_color_title"] ?? null), "html", null, true);
-        echo "</span>
-        </h2>
-        <div class=\"row\">
-
-          <div class=\"col-md-12 col-lg-9\">
-            ";
-        // line 739
-        echo ($context["about_of_company_desc"] ?? null);
-        echo "
-          </div>
-
-          <div class=\"col-md-12 col-lg-3\">
-            <div class=\"logos-in-about row\">
-              <div class=\"col-6 col-md-3 col-lg-6 text-center py-4\">
-                <img src=\"https://cms.abpx.kz";
-        // line 745
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["exin_logo"] ?? null), "path", [], "any", false, false, false, 745), "html", null, true);
-        echo "\">
-              </div>
-              <div class=\"col-6 col-md-3 col-lg-6 text-center py-4\">
-                <img src=\"https://cms.abpx.kz";
-        // line 748
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["site_logo"] ?? null), "path", [], "any", false, false, false, 748), "html", null, true);
-        echo "\">
-              </div>
-              <div class=\"col-12 col-md-6 col-lg-12 text-center d-flex align-items-center\">
-                <a href=\"https://exin.kz/\" class=\"btn btn-gradient mt-3 px-5 py-3 mx-auto\" target=\"_blank\">
-                  Узнать больше
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class=\"row pt-5\">
-
-          <div class=\"col-md-12 col-lg-6 mb-5 d-flex fact pe-md-0\">
-            <div class=\"left-number d-none d-md-inline-block\">
-              <h4>";
-        // line 764
-        echo twig_escape_filter($this->env, ($context["about_of_company_item_number"] ?? null), "html", null, true);
-        echo "</h4>
-            </div>
-            <div class=\"text\">
-
-              <div class=\"left-number d-inline-block d-md-none float-start\">
-                <h4>";
-        // line 769
-        echo twig_escape_filter($this->env, ($context["about_of_company_item_number"] ?? null), "html", null, true);
-        echo "</h4>
-              </div>
-              <h4>";
-        // line 771
-        echo ($context["about_of_company_item_title"] ?? null);
-        echo "</h4>
-
-              <div class=\"bordered\">
-                ";
-        // line 774
-        echo ($context["about_of_company_item_desc"] ?? null);
-        echo "
-              </div>
-
-            </div>
-          </div>
-
-          <div class=\"col-md-12 col-lg-6 d-flex fact pe-md-0\">
-            <div class=\"left-number d-none d-md-inline-block\">
-              <h4>";
-        // line 782
-        echo twig_escape_filter($this->env, ($context["about_of_company_item_number_two"] ?? null), "html", null, true);
-        echo "</h4>
-            </div>
-            <div class=\"text\">
-
-              <div class=\"left-number d-inline-block d-md-none float-start\">
-                <h4>";
-        // line 787
-        echo twig_escape_filter($this->env, ($context["about_of_company_item_number_two"] ?? null), "html", null, true);
-        echo "</h4>
-              </div>
-              <h4>";
-        // line 789
-        echo ($context["about_of_company_item_title_two"] ?? null);
-        echo "</h4>
-
-              <div class=\"bordered\">
-                ";
-        // line 792
-        echo ($context["about_of_company_item_desc_two"] ?? null);
-        echo "
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id=\"contacts\" class=\"new-map pb-0 mb-0 pb-lg-6 mb-lg-6\">
-      <div class=\"container px-md-0 px-lg-6  mb-6\">
-        <div class=\"contacts-content align-items-center d-flex p-4 p-md-5\">
-          <div class=\"container position-relative\">
-            <div class=\"row\">
-              <div class=\"col-12 col-md-10 col-lg-12 mx-auto\">
-                <h2 class=\"sectionTitle fw-bolder mb-0 mt-0 mt-md-auto\">
-                  Контакты
-                </h2>
-                <div class=\"contacts-info row pt-4 pb-5\">
-                  <div class=\"col-md-12 mb-md-3 col-lg-4\">
-                    <a href=\"tel:";
-        // line 815
-        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
-        echo "\" class=\"contact-item\"><i class=\"fas fa-phone-alt me-2\"></i> ";
-        echo twig_escape_filter($this->env, ($context["site_phone"] ?? null), "html", null, true);
-        echo "</a>
-                  </div>
-                  <div class=\"col-md-12 col-lg-8\">
-                    <span class=\"contact-item\"><i class=\"fas fa-map-marker-alt me-2\"></i> ";
-        // line 818
-        echo twig_escape_filter($this->env, ($context["site_adress"] ?? null), "html", null, true);
-        echo "</span>
-                  </div>
-                </div>
-              </div>
-              <div class=\"col-md-10 mx-md-auto col-lg-4\">
-                <div class=\"callback-form bg-white\">
-                  <h4 class=\"d-block d-lg-none\">";
-        // line 824
-        echo twig_escape_filter($this->env, (($__internal_51b47659448148079c55eb5fc84ce5e7b27c8ff1fadeba243d0bf4a59f102eb4 = ($context["translate"] ?? null)) && is_array($__internal_51b47659448148079c55eb5fc84ce5e7b27c8ff1fadeba243d0bf4a59f102eb4) || $__internal_51b47659448148079c55eb5fc84ce5e7b27c8ff1fadeba243d0bf4a59f102eb4 instanceof ArrayAccess ? ($__internal_51b47659448148079c55eb5fc84ce5e7b27c8ff1fadeba243d0bf4a59f102eb4["callback_title"] ?? null) : null), "html", null, true);
-        echo "</h4>
-                  <form class=\"mb-0 pe-0 pe-lg-5\" action=\"\">
-                    <div class=\"mb-3\">
-                      <input type=\"text\" class=\"form-control\" id=\"staticFormName\" name=\"name\" placeholder=\"";
-        // line 827
-        echo twig_escape_filter($this->env, (($__internal_7954abe9e82b868b32e99deec50bc82d0cf006d569340d1981c528f484e4306d = ($context["translate"] ?? null)) && is_array($__internal_7954abe9e82b868b32e99deec50bc82d0cf006d569340d1981c528f484e4306d) || $__internal_7954abe9e82b868b32e99deec50bc82d0cf006d569340d1981c528f484e4306d instanceof ArrayAccess ? ($__internal_7954abe9e82b868b32e99deec50bc82d0cf006d569340d1981c528f484e4306d["name"] ?? null) : null), "html", null, true);
-        echo "\" fieldname=\"Имя\">
-                    </div>
-                    <div class=\"mb-3\">
-                      <input type=\"text\" class=\"form-control\" id=\"staticFormPhone\" name=\"phone\" placeholder=\"";
-        // line 830
-        echo twig_escape_filter($this->env, (($__internal_edc3933374aa0ae65dd90505a315fe17c24a986a5b064b0f4774e7dc68df29b5 = ($context["translate"] ?? null)) && is_array($__internal_edc3933374aa0ae65dd90505a315fe17c24a986a5b064b0f4774e7dc68df29b5) || $__internal_edc3933374aa0ae65dd90505a315fe17c24a986a5b064b0f4774e7dc68df29b5 instanceof ArrayAccess ? ($__internal_edc3933374aa0ae65dd90505a315fe17c24a986a5b064b0f4774e7dc68df29b5["phone"] ?? null) : null), "html", null, true);
-        echo "\" fieldname=\"Телефон\" required=\"required\">
-                    </div>
-                    <div class=\"d-inline-block\">
-                      <a href=\"#\" class=\"btn btn-gradient float-start sendFormButton px-4\" onclick=\"frontend.form(this); return false\">";
-        // line 833
-        echo twig_escape_filter($this->env, (($__internal_78a78e2af552daad30f9bd5ea90c17811faa9f63aaaf1d1d527de70902fe2a7a = ($context["translate"] ?? null)) && is_array($__internal_78a78e2af552daad30f9bd5ea90c17811faa9f63aaaf1d1d527de70902fe2a7a) || $__internal_78a78e2af552daad30f9bd5ea90c17811faa9f63aaaf1d1d527de70902fe2a7a instanceof ArrayAccess ? ($__internal_78a78e2af552daad30f9bd5ea90c17811faa9f63aaaf1d1d527de70902fe2a7a["send"] ?? null) : null), "html", null, true);
-        echo "</a>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class=\"col-md-10 mx-auto col-lg-8\">
-                <div id=\"map\"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
     ";
-        // line 847
+        // line 526
+        echo twig_include($this->env, $context, "widgets/horisontal_callback.twig");
+        echo "
+
+    ";
+        // line 528
+        echo twig_include($this->env, $context, "widgets/building_steps.twig");
+        echo "
+
+    ";
+        // line 530
+        echo twig_include($this->env, $context, "widgets/about_developer.twig");
+        echo "
+
+    ";
+        // line 532
         echo twig_include($this->env, $context, "widgets/footer.twig");
         echo "
 
@@ -1378,20 +812,20 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
             <form action=\"\">
               <div class=\"mb-3\">
                 <input type=\"text\" class=\"form-control\" id=\"formName\" name=\"name\" placeholder=\"";
-        // line 858
-        echo twig_escape_filter($this->env, (($__internal_68329f830f66b3d66aa25264abe6d152d460842b92be66836c0d8febb9fe46da = ($context["translate"] ?? null)) && is_array($__internal_68329f830f66b3d66aa25264abe6d152d460842b92be66836c0d8febb9fe46da) || $__internal_68329f830f66b3d66aa25264abe6d152d460842b92be66836c0d8febb9fe46da instanceof ArrayAccess ? ($__internal_68329f830f66b3d66aa25264abe6d152d460842b92be66836c0d8febb9fe46da["name"] ?? null) : null), "html", null, true);
+        // line 543
+        echo twig_escape_filter($this->env, (($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0 = ($context["translate"] ?? null)) && is_array($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0) || $__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0 instanceof ArrayAccess ? ($__internal_bf0e189d688dc2ad611b50a437a32d3692fb6b8be90d2228617cfa6db44e75c0["name"] ?? null) : null), "html", null, true);
         echo "\" fieldname=\"Имя\">
               </div>
               <div class=\"mb-3\">
                 <input type=\"text\" class=\"form-control\" id=\"formPhone\" name=\"phone\" placeholder=\"";
-        // line 861
-        echo twig_escape_filter($this->env, (($__internal_0c0a6bc8299d1416ae3339265b194ff43aaec7fc209979ab91c947804ef09b38 = ($context["translate"] ?? null)) && is_array($__internal_0c0a6bc8299d1416ae3339265b194ff43aaec7fc209979ab91c947804ef09b38) || $__internal_0c0a6bc8299d1416ae3339265b194ff43aaec7fc209979ab91c947804ef09b38 instanceof ArrayAccess ? ($__internal_0c0a6bc8299d1416ae3339265b194ff43aaec7fc209979ab91c947804ef09b38["phone"] ?? null) : null), "html", null, true);
+        // line 546
+        echo twig_escape_filter($this->env, (($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c = ($context["translate"] ?? null)) && is_array($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c) || $__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c instanceof ArrayAccess ? ($__internal_674c0abf302105af78b0a38907d86c5dd0028bdc3ee5f24bf52771a16487760c["phone"] ?? null) : null), "html", null, true);
         echo "\" fieldname=\"Телефон\" required=\"\">
               </div>
               <div>
                 <a href=\"#\" class=\"btn btn-gradient float-start sendFormButton\" onclick=\"frontend.form(this); return false\">";
-        // line 864
-        echo twig_escape_filter($this->env, (($__internal_c5373d6c112ec7cfa0d260a8ea49b75af689c74c186cb9e1d12f91be2f3451ec = ($context["translate"] ?? null)) && is_array($__internal_c5373d6c112ec7cfa0d260a8ea49b75af689c74c186cb9e1d12f91be2f3451ec) || $__internal_c5373d6c112ec7cfa0d260a8ea49b75af689c74c186cb9e1d12f91be2f3451ec instanceof ArrayAccess ? ($__internal_c5373d6c112ec7cfa0d260a8ea49b75af689c74c186cb9e1d12f91be2f3451ec["send"] ?? null) : null), "html", null, true);
+        // line 549
+        echo twig_escape_filter($this->env, (($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f = ($context["translate"] ?? null)) && is_array($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f) || $__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f instanceof ArrayAccess ? ($__internal_dd839fbfcab68823c49af471c7df7659a500fe72e71b58d6b80d896bdb55e75f["send"] ?? null) : null), "html", null, true);
         echo "</a>
               </div>
               <!--div class=\"preloader\" style=\"display: none\">
@@ -1411,9 +845,9 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     </div>
 
     ";
-        // line 882
+        // line 567
         if (($context["notification_modal_on"] ?? null)) {
-            // line 883
+            // line 568
             echo "    <!-- Modal -->
     <div class=\"modal fade\" id=\"notificationModal\" tabindex=\"-1\" aria-labelledby=\"notificationModalLabel\" aria-hidden=\"true\">
       <div class=\"modal-dialog modal-dialog-centered\">
@@ -1421,7 +855,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           <div class=\"modal-body\">
             <a href=\"#\" class=\"btn-close\" data-bs-dismiss=\"modal\" aria-label=\"Close\"></a>
             <h5 class=\"modal-title\" id=\"notificationModalLabel\" style=\"line-height: 1.2\">";
-            // line 889
+            // line 574
             echo twig_escape_filter($this->env, ($context["notification_modal_title"] ?? null), "html", null, true);
             echo "</h5>
             <div class=\"emojies\">
@@ -1432,17 +866,17 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
               <img src=\"assets/img/emoji/5.png\" class=\"wow bounceIn\" data-wow-delay=\"0.4s\">
             </div>
             <p>";
-            // line 897
+            // line 582
             echo twig_escape_filter($this->env, ($context["notification_modal_text"] ?? null), "html", null, true);
             echo "</p>
             <b>";
-            // line 898
+            // line 583
             echo ($context["notification_modal_contact"] ?? null);
             echo "</b>
             <div class=\"d-inline-block w-100 mt-3\">
               <a href=\"#contacts\" class=\"mb-0 btn btn-gradient closeNotification\">";
-            // line 900
-            echo twig_escape_filter($this->env, (($__internal_a13b5858c5824edc0cf555cffe22c4f90468c22ef1115c74916647af2c9b8574 = ($context["translate"] ?? null)) && is_array($__internal_a13b5858c5824edc0cf555cffe22c4f90468c22ef1115c74916647af2c9b8574) || $__internal_a13b5858c5824edc0cf555cffe22c4f90468c22ef1115c74916647af2c9b8574 instanceof ArrayAccess ? ($__internal_a13b5858c5824edc0cf555cffe22c4f90468c22ef1115c74916647af2c9b8574["contacts"] ?? null) : null), "html", null, true);
+            // line 585
+            echo twig_escape_filter($this->env, (($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc = ($context["translate"] ?? null)) && is_array($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc) || $__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc instanceof ArrayAccess ? ($__internal_a7ed47878554bdc32b70e1ba5ccc67d2302196876fbf62b4c853b20cb9e029fc["contacts"] ?? null) : null), "html", null, true);
             echo "</a>
             </div>
           </div>
@@ -1451,7 +885,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
     </div>
     ";
         }
-        // line 907
+        // line 592
         echo "
   </body>
 
@@ -1473,36 +907,36 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
 
     var translater = new Object({
       count_rooms: \"";
-        // line 927
-        echo twig_escape_filter($this->env, (($__internal_8273200462706e912633c1bd12ca5fc5736d038390c29954112cb78d56c3075c = ($context["translate"] ?? null)) && is_array($__internal_8273200462706e912633c1bd12ca5fc5736d038390c29954112cb78d56c3075c) || $__internal_8273200462706e912633c1bd12ca5fc5736d038390c29954112cb78d56c3075c instanceof ArrayAccess ? ($__internal_8273200462706e912633c1bd12ca5fc5736d038390c29954112cb78d56c3075c["count_rooms"] ?? null) : null), "html", null, true);
+        // line 612
+        echo twig_escape_filter($this->env, (($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55 = ($context["translate"] ?? null)) && is_array($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55) || $__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55 instanceof ArrayAccess ? ($__internal_e5d7b41e16b744b68da1e9bb49047b8028ced86c782900009b4b4029b83d4b55["count_rooms"] ?? null) : null), "html", null, true);
         echo "\",
       floor: \"";
-        // line 928
-        echo twig_escape_filter($this->env, (($__internal_ba7685baed7d294d6f9f021c094359707afc43c727e6a2d19ff1d176796bbda0 = ($context["translate"] ?? null)) && is_array($__internal_ba7685baed7d294d6f9f021c094359707afc43c727e6a2d19ff1d176796bbda0) || $__internal_ba7685baed7d294d6f9f021c094359707afc43c727e6a2d19ff1d176796bbda0 instanceof ArrayAccess ? ($__internal_ba7685baed7d294d6f9f021c094359707afc43c727e6a2d19ff1d176796bbda0["floor"] ?? null) : null), "html", null, true);
+        // line 613
+        echo twig_escape_filter($this->env, (($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba = ($context["translate"] ?? null)) && is_array($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba) || $__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba instanceof ArrayAccess ? ($__internal_9e93f398968fa0576dce82fd00f280e95c734ad3f84e7816ff09158ae224f5ba["floor"] ?? null) : null), "html", null, true);
         echo "\",
       square: \"";
-        // line 929
-        echo twig_escape_filter($this->env, (($__internal_101f955954d09941874d68c1bc31b2171b1313930c7c7163a30d4c0951b92adc = ($context["translate"] ?? null)) && is_array($__internal_101f955954d09941874d68c1bc31b2171b1313930c7c7163a30d4c0951b92adc) || $__internal_101f955954d09941874d68c1bc31b2171b1313930c7c7163a30d4c0951b92adc instanceof ArrayAccess ? ($__internal_101f955954d09941874d68c1bc31b2171b1313930c7c7163a30d4c0951b92adc["square"] ?? null) : null), "html", null, true);
+        // line 614
+        echo twig_escape_filter($this->env, (($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78 = ($context["translate"] ?? null)) && is_array($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78) || $__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78 instanceof ArrayAccess ? ($__internal_0795e3de58b6454b051261c0c2b5be48852e17f25b59d4aeef29fb07c614bd78["square"] ?? null) : null), "html", null, true);
         echo "\",
       download_plan: \"";
-        // line 930
-        echo twig_escape_filter($this->env, (($__internal_d19b8970b34a70cf90f25bc70d063a8b0fc361c2ffc373a6176195b465bc0ccd = ($context["translate"] ?? null)) && is_array($__internal_d19b8970b34a70cf90f25bc70d063a8b0fc361c2ffc373a6176195b465bc0ccd) || $__internal_d19b8970b34a70cf90f25bc70d063a8b0fc361c2ffc373a6176195b465bc0ccd instanceof ArrayAccess ? ($__internal_d19b8970b34a70cf90f25bc70d063a8b0fc361c2ffc373a6176195b465bc0ccd["download_plan"] ?? null) : null), "html", null, true);
+        // line 615
+        echo twig_escape_filter($this->env, (($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de = ($context["translate"] ?? null)) && is_array($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de) || $__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de instanceof ArrayAccess ? ($__internal_fecb0565c93d0b979a95c352ff76e401e0ae0c73bb8d3b443c8c6133e1c190de["download_plan"] ?? null) : null), "html", null, true);
         echo "\",
       leave_a_request: \"";
-        // line 931
-        echo twig_escape_filter($this->env, (($__internal_7f22f462d0a079e9b28d4dd0209cce239cda0d0c81b8f79d4d6355c3a5eedc81 = ($context["translate"] ?? null)) && is_array($__internal_7f22f462d0a079e9b28d4dd0209cce239cda0d0c81b8f79d4d6355c3a5eedc81) || $__internal_7f22f462d0a079e9b28d4dd0209cce239cda0d0c81b8f79d4d6355c3a5eedc81 instanceof ArrayAccess ? ($__internal_7f22f462d0a079e9b28d4dd0209cce239cda0d0c81b8f79d4d6355c3a5eedc81["leave_a_request"] ?? null) : null), "html", null, true);
+        // line 616
+        echo twig_escape_filter($this->env, (($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828 = ($context["translate"] ?? null)) && is_array($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828) || $__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828 instanceof ArrayAccess ? ($__internal_87570a635eac7f6e150744bd218085d17aff15d92d9c80a66d3b911e3355b828["leave_a_request"] ?? null) : null), "html", null, true);
         echo "\",
       no_valid_number: \"";
-        // line 932
-        echo twig_escape_filter($this->env, (($__internal_08d357d6c6cc179c7eaa6aa16ae7c13336efbc0aa5669c58d46cab7f2ce96007 = ($context["translate"] ?? null)) && is_array($__internal_08d357d6c6cc179c7eaa6aa16ae7c13336efbc0aa5669c58d46cab7f2ce96007) || $__internal_08d357d6c6cc179c7eaa6aa16ae7c13336efbc0aa5669c58d46cab7f2ce96007 instanceof ArrayAccess ? ($__internal_08d357d6c6cc179c7eaa6aa16ae7c13336efbc0aa5669c58d46cab7f2ce96007["no_valid_number"] ?? null) : null), "html", null, true);
+        // line 617
+        echo twig_escape_filter($this->env, (($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd = ($context["translate"] ?? null)) && is_array($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd) || $__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd instanceof ArrayAccess ? ($__internal_17b5b5f9aaeec4b528bfeed02b71f624021d6a52d927f441de2f2204d0e527cd["no_valid_number"] ?? null) : null), "html", null, true);
         echo "\",
       multiplier: \"";
-        // line 933
-        echo twig_escape_filter($this->env, (($__internal_6d2de8847ca935d43c4b17225dc2537ff47d9b1c0e614e4fed558aa26b7f934d = ($context["translate"] ?? null)) && is_array($__internal_6d2de8847ca935d43c4b17225dc2537ff47d9b1c0e614e4fed558aa26b7f934d) || $__internal_6d2de8847ca935d43c4b17225dc2537ff47d9b1c0e614e4fed558aa26b7f934d instanceof ArrayAccess ? ($__internal_6d2de8847ca935d43c4b17225dc2537ff47d9b1c0e614e4fed558aa26b7f934d["multiplier"] ?? null) : null), "html", null, true);
+        // line 618
+        echo twig_escape_filter($this->env, (($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6 = ($context["translate"] ?? null)) && is_array($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6) || $__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6 instanceof ArrayAccess ? ($__internal_0db9a23306660395861a0528381e0668025e56a8a99f399e9ec23a4b392422d6["multiplier"] ?? null) : null), "html", null, true);
         echo "\",
       multiplierX1: \"";
-        // line 934
-        echo twig_escape_filter($this->env, (($__internal_14ec589d07a85756e12acaaf8d41cc27621a5a03ce9e1c2835143b81f89a8dba = ($context["translate"] ?? null)) && is_array($__internal_14ec589d07a85756e12acaaf8d41cc27621a5a03ce9e1c2835143b81f89a8dba) || $__internal_14ec589d07a85756e12acaaf8d41cc27621a5a03ce9e1c2835143b81f89a8dba instanceof ArrayAccess ? ($__internal_14ec589d07a85756e12acaaf8d41cc27621a5a03ce9e1c2835143b81f89a8dba["multiplierX1"] ?? null) : null), "html", null, true);
+        // line 619
+        echo twig_escape_filter($this->env, (($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855 = ($context["translate"] ?? null)) && is_array($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855) || $__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855 instanceof ArrayAccess ? ($__internal_0a23ad2f11a348e49c87410947e20d5a4e711234ce49927662da5dddac687855["multiplierX1"] ?? null) : null), "html", null, true);
         echo "\"
     })
 
@@ -1510,6 +944,21 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
 
       function authorMarker() {
         console.log(\"%cExclusive Qurylys with Iskandarov Timur\", \"color:#fff; background-color:#7eb621; padding: 8px 15px; font-size: 14px; border-radius: 4px; text-align:center\")
+      }
+
+      function paralaxSlider(offset) {
+        if (offset <= 650) {
+          const paralaxLayers = document.querySelectorAll('.parallax__layer');
+
+          paralaxLayers.forEach((layer) => {
+            const speed = layer.getAttribute('data-speed');
+            const duration = layer.getAttribute('data-duration');
+            const transform = offset/duration;
+
+            layer.style.transition = speed + \"s all\";
+            layer.style.transform = layer.style.transform.split(' ')[0] + \" translateY(-\" + transform + \"px)\";
+          });
+        }
       }
 
       function creiateMap() {
@@ -1641,7 +1090,6 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
         }
       }
 
-      //Fade out element
       function fade(element) {
         var op = 1;  // initial opacity
         var timer = setInterval(function () {
@@ -1680,39 +1128,32 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
 
       function buildingStepsCarousel() {
         //Building Steps
-        let slidesPerView = 3.4
-        let effect = 'coverflow'
-        let coverflow = {
-          rotate: 0,
-          stretch: 150,
-          depth: 200,
-          modifier: 1,
-          slideShadows: false,
-        }
-        let center = true
-        let margin = -10
+        let slidesPerView = 3;
+        let center = false;
+        let margin = 1;
+
         if (window.innerWidth < 1350) {
-          slidesPerView = 3
+          slidesPerView = 3;
         }
+
         if (window.innerWidth < 990) {
-          slidesPerView = 2.3
+          slidesPerView = 2.3;
         }
+
         if (window.innerWidth < 768) {
-          slidesPerView = 1.3
-          effect = ''
-          coverflow = false
+          slidesPerView = 1.3;
           center = false
-          margin = 25
+          margin = 10
         }
+
         if (window.innerWidth < 576) {
           slidesPerView = 1.2
-          effect = ''
-          coverflow = false
           center = false
-          margin = 25
+          margin = 10
         }
+
         var steps = new Swiper('.steps-swiper', {
-          effect: effect,
+          effect: null,
           loop: true,
           slidesPerView: slidesPerView,
           initialSlide: 0,
@@ -1724,20 +1165,20 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           preventClicksPropagation: false,
           lazyLoadingInPrevNext: true,
           spaceBetween: margin,
-          coverflow: coverflow,
-        })
+        });
 
-        buildingStepsAutoHeight()
+        buildingStepsAutoHeight();
 
       }
 
       function buildingStepsAutoHeight() {
 
         //Set autoHeight
-        let steps_items = document.querySelectorAll('.steps-swiper .swiper-slide')
+        let steps_items = document.querySelectorAll('.steps-swiper .swiper-slide');
+
         steps_items.forEach(function (step) {
-          let height = (step.offsetWidth / 16) * 12
-          step.style.height = height
+          let height = (step.offsetWidth / 10) * 11;
+          step.style.height = height;
         })
 
       }
@@ -2219,14 +1660,14 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
       })()
 
       function frontendReady() {
-        authorMarker()
-        creiateMap()
-        buildingStepsCarousel()
-        advantagesCarousel()
-        galleryCarousel()
-        closePreloader()
-        //creiateUserNotification()
-        phoneValidator()
+        authorMarker();
+        creiateMap();
+        buildingStepsCarousel();
+        advantagesCarousel();
+        galleryCarousel();
+        closePreloader();
+        //creiateUserNotification();
+        phoneValidator();
       }
 
       function frontendResize() {
@@ -2236,6 +1677,8 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
       }
 
       function frontendScroll() {
+        paralaxSlider(window.pageYOffset);
+
         //Slider paralax
         var scrollPosition = 0
         //var decor1 = document.querySelector('.decor1')
@@ -2255,14 +1698,14 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
           }
         }
 
-        if (window.pageYOffset > 150)\t{
+        if (window.pageYOffset > 450)\t{
           header.classList.add('fixed')
 
         } else {
           header.classList.remove('fixed')
         }
 
-        if (window.pageYOffset > 350)\t{
+        if (window.pageYOffset > 650)\t{
           if (!header.classList.contains('sticky')) {
             header.classList.add('sticky')
           }
@@ -2331,7 +1774,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
   </style>
 
   ";
-        // line 1761
+        // line 1455
         echo ($context["site_scripts_in_footer"] ?? null);
         echo "
 
@@ -2351,7 +1794,7 @@ class __TwigTemplate_71cec4c0b47e9ab68f6576b12eadbf01360e615c0d704da8a84a315cab6
 
     public function getDebugInfo()
     {
-        return array (  2335 => 1761,  1505 => 934,  1501 => 933,  1497 => 932,  1493 => 931,  1489 => 930,  1485 => 929,  1481 => 928,  1477 => 927,  1455 => 907,  1445 => 900,  1440 => 898,  1436 => 897,  1425 => 889,  1417 => 883,  1415 => 882,  1394 => 864,  1388 => 861,  1382 => 858,  1368 => 847,  1351 => 833,  1345 => 830,  1339 => 827,  1333 => 824,  1324 => 818,  1316 => 815,  1290 => 792,  1284 => 789,  1279 => 787,  1271 => 782,  1260 => 774,  1254 => 771,  1249 => 769,  1241 => 764,  1222 => 748,  1216 => 745,  1207 => 739,  1199 => 734,  1195 => 733,  1183 => 723,  1175 => 720,  1137 => 718,  1135 => 717,  1131 => 716,  1125 => 714,  1121 => 713,  1109 => 704,  1105 => 703,  1091 => 691,  1080 => 688,  1077 => 687,  1073 => 686,  1063 => 681,  1057 => 680,  1051 => 679,  1044 => 677,  1038 => 676,  1032 => 675,  1025 => 671,  1021 => 670,  1006 => 658,  999 => 654,  990 => 648,  973 => 634,  848 => 512,  770 => 437,  760 => 430,  746 => 419,  739 => 415,  732 => 411,  725 => 407,  718 => 403,  699 => 387,  695 => 386,  675 => 368,  665 => 364,  661 => 363,  657 => 361,  653 => 360,  644 => 354,  640 => 353,  624 => 340,  617 => 336,  608 => 330,  582 => 307,  577 => 305,  573 => 304,  569 => 303,  555 => 296,  546 => 289,  531 => 281,  527 => 280,  523 => 279,  514 => 273,  509 => 271,  505 => 270,  501 => 269,  492 => 262,  490 => 261,  487 => 260,  478 => 253,  468 => 249,  464 => 248,  461 => 247,  457 => 246,  450 => 242,  446 => 241,  442 => 240,  437 => 237,  435 => 236,  422 => 226,  418 => 225,  412 => 222,  408 => 221,  404 => 220,  394 => 213,  387 => 209,  383 => 208,  378 => 206,  370 => 201,  350 => 184,  346 => 183,  340 => 182,  326 => 179,  314 => 178,  304 => 171,  296 => 166,  288 => 161,  280 => 156,  272 => 151,  264 => 146,  252 => 137,  244 => 132,  236 => 127,  218 => 114,  212 => 113,  204 => 108,  196 => 103,  188 => 98,  179 => 92,  173 => 89,  167 => 86,  161 => 83,  155 => 80,  149 => 77,  134 => 73,  122 => 72,  68 => 21,  60 => 16,  48 => 7,  44 => 6,  37 => 1,);
+        return array (  1778 => 1455,  939 => 619,  935 => 618,  931 => 617,  927 => 616,  923 => 615,  919 => 614,  915 => 613,  911 => 612,  889 => 592,  879 => 585,  874 => 583,  870 => 582,  859 => 574,  851 => 568,  849 => 567,  828 => 549,  822 => 546,  816 => 543,  802 => 532,  797 => 530,  792 => 528,  787 => 526,  782 => 524,  770 => 515,  763 => 511,  754 => 505,  737 => 491,  612 => 369,  534 => 294,  524 => 287,  510 => 276,  503 => 272,  496 => 268,  489 => 264,  482 => 260,  463 => 244,  459 => 243,  439 => 225,  429 => 221,  425 => 220,  421 => 218,  417 => 217,  408 => 211,  404 => 210,  387 => 196,  382 => 194,  378 => 193,  374 => 192,  360 => 185,  351 => 178,  336 => 170,  332 => 169,  328 => 168,  319 => 162,  314 => 160,  310 => 159,  306 => 158,  297 => 151,  295 => 150,  292 => 149,  283 => 142,  273 => 138,  269 => 137,  266 => 136,  262 => 135,  255 => 131,  251 => 130,  247 => 129,  242 => 126,  240 => 125,  235 => 123,  230 => 121,  219 => 115,  213 => 114,  205 => 109,  197 => 104,  189 => 99,  180 => 93,  174 => 90,  168 => 87,  162 => 84,  156 => 81,  150 => 78,  135 => 74,  123 => 73,  69 => 22,  61 => 17,  48 => 7,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()

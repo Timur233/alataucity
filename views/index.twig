@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/css/libs/animate.css">
     <link rel="stylesheet" href="assets/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css?v=28" />
+    <link rel="stylesheet" href="assets/css/new-styles.css" />
 
     <meta name="facebook-domain-verification" content="0z9880hvdcrsy9upz53gffnpu7uz7l" />
 
@@ -117,121 +118,9 @@
       </nav>
     </div>
 
-    <header class="position-absolute align-items-center w-100 px-xl-5" style="z-index: 999">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col d-flex">
-            <div class="row align-items-center logos">
-              <div class="col d-none d-sm-inline-block">
-                <a href="https://exin.kz/" target="_blank">
-                  <img class="mw-100" src="https://cms.abpx.kz{{ exin_logo.path }}" alt="">
-                </a>
-              </div>
-              <div class="col">
-                <a href="#home">
-                  <img class="mw-100" src="https://cms.abpx.kz{{ site_logo.path }}" alt="">
-                </a>
-              </div>
-              <div class="col d-none d-sm-inline-block">
-                <span>
-                  <img class="mw-100" src="https://cms.abpx.kz{{ halyk_logo.path }}" alt="">
-                </span>
-              </div>
-            </div>
-          </div>
-          <div class="col-xl-6 col-xxl-7 d-none d-xl-flex align-items-center justify-content-center">
-            <ul class="nav-menu left text-xxl-end text-xl-center">
-              <li>
-                <a href="#about">
-                  {{ translate['about_of_project'] }}
-                </a>
-              </li>
-              <li>
-                <a href="#advantages">
-                  {{ translate['advantages'] }}
-                </a>
-              </li>
-              <li>
-                <a href="#gallery">
-                  {{ translate['gallery'] }}
-                </a>
-              </li>
-              <li>
-                <a href="#flats">
-                  {{ translate['flats'] }}
-                </a>
-              </li>
-              <li>
-                <a href="#aboutOfCompany">
-                  {{ translate['about_of_company'] }}
-                </a>
-              </li>
-              <li>
-                <a href="#contacts">
-                  {{ translate['contacts'] }}
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div class="col d-flex align-items-center justify-content-end">
-            <div class="lang-switcher px-4 d-none d-sm-inline-block">
-              <a href="{% if lang != 'ru' %}?lang=ru{% else %}#{% endif %} " class="lang-switcher__item {% if lang == 'ru' %}lang-switcher__item-active{% endif %}">RUS</a>
-              <a href="{% if lang != 'kk' %}?lang=kk{% else %}#{% endif %}" class="lang-switcher__item {% if lang == 'kk' %}lang-switcher__item-active{% endif %}">KZ</a>
-            </div>
-            <div class="contact-block d-//-none d-sm-inline-block">
-              <a href="tel:{{site_phone}}" class="contact-block__phone">{{site_phone}}</a>
-              <span class="contact-block__short-address">{{site_short_adress}}</span>
-              <a href="" class="d-none d-lg-inline-block btn btn-gradient contact-block__callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal">{{ translate['leave_a_request'] }}</a>
-            </div>
-            <a href="#" class="mobile-phone-data d-none d-inline-block d-xl-none ps-3" onclick="let phoneNumber = document.querySelector('.contact-block__phone').textContent; window.location.href = 'tel:' + phoneNumber">
-              <i class="fas fa-phone"></i>
-            </a>
-            <a href="#" id="sidebarToggle" class="d-inline-block d-xl-none ps-3" onclick="frontend.sidebar(this.getAttribute('condition')); return false">
-              <svg class="ham hamRotate180 ham5" viewBox="0 0 100 100" width="80" style="width: 50px;">
-                <path class="line top" d="m 10,33 h 40 c 0,0 8.5,-0.68551 8.5,10.375 0,8.292653 -6.122707,9.002293 -8.5,6.625 l -11.071429,-11.071429"></path>
-                <path class="line middle" d="m 70,50 h -40"></path>
-                <path class="line bottom" d="m 10,67 h 40 c 0,0 8.5,0.68551 8.5,-10.375 0,-8.292653 -6.122707,-9.002293 -8.5,-6.625 l -11.071429,11.071429"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </header>
+    {{ include('widgets/_header.twig') }}
 
-    <section id="home" class="slider min-vh-100 mb-5 mb-md-0" style="background-image: url('https://cms.abpx.kz{{ slide_image.path }}')">
-      <div class="container-fluid position-relative d-flex align-items-center px-3 px-md-5">
-        <div class="section-slider-content">
-          <div class="row">
-            <div class="ms-auto col-xxl-5 col-xl-5 col-lg-7 col-md-12 px-sm-0 px-md-5 text-left slider-info">
-              <h1>{{ slide_title|raw }}</h1>
-              <div class="slider_content">
-                <span>{{ slide_desc }}</span>
-                <h3>{{ slide_desc_2 }}</h3>
-              </div>
-              <div class="button-flats py-5">
-                <a href="#flats" class="btn btn-gradient btn-big">
-                  {{ translate['see_a_flats'] }}
-                  <svg width="26" height="16" class="ms-4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.707 8.707a1 1 0 000-1.414L19.343.929a1 1 0 10-1.414 1.414L23.586 8l-5.657 5.657a1 1 0 001.414 1.414l6.364-6.364zM0 9h25V7H0v2z" fill="#fff"></path></svg>
-                </a>
-              </div>
-              <div class="promo-info">
-                <div class="row">
-                  <div class="col-md-5 credit-persent">
-                    <span>{{ translate['kredit'] }}</span>
-                    <strong>{{ slide_precent }}</strong>
-                    <span>{{ translate['annual'] }}</span>
-                  </div>
-                  <div class="col-md-7 price-for-meter">
-                    <span>{{ translate['price_for_metere'] }}</span>
-                    <strong>{{ slide_price|raw }}</strong>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    {{ include('widgets/slider.twig') }}
 
     {% if reasons_gallery %}
       <section id="reasons" class="reasons pt-6 pb-6 pb-md-0">
@@ -311,38 +200,6 @@
 
         </div>
 
-      </div>
-    </section>
-
-    <section id="callback" class="callback pb-6">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <form class="mb-0 dark-form" action="">
-              <h2 class="sectionTitle">
-                Оставить
-                <span class="color">заявку</span>
-              </h2>
-              <div class="row position-relative py-4">
-                <div class="col-md-4 col-xl-3 py-3">
-                  <div class="form-group">
-                    <i class="fa fa-user"></i>
-                    <input type="text" class="form-control" id="staticTopFormName" name="name" placeholder="{{ translate['name'] }}" fieldname="Имя">
-                  </div>
-                </div>
-                <div class="col-md-4 col-xl-3 py-3">
-                  <div class="form-group">
-                    <i class="fa fa-phone"></i>
-                    <input type="text" class="form-control" id="staticTopFormPhone" name="phone" placeholder="{{ translate['phone'] }}" fieldname="Телефон" required="required">
-                  </div>
-                </div>
-                <div class="col-md-4 col-xl-3 form-bg py-3">
-                  <a href="#" class="btn btn-gradient float-start sendFormButton" onclick="frontend.form(this); return false">{{ translate['call_back_me'] }} <i class="fa fa-chevron-right ms-2"></i></a>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -664,185 +521,13 @@
     </div>
   </section>
 
-    <section id="gallery" class="gallery pb-6">
-      <div class="container">
-        <h2 class="sectionTitle mb-2 mb-md-5">
-          {{ gallery_title }}
-          <span class="color">{{ gallery_color_title }}</span>
-        </h2>
-        <div class="gallery__items d-none d-md-flex">
-          <div class="wrap">
-            <a href="https://cms.abpx.kz{{ gallery_items[0].path }}" data-fslightbox="gallery__items" class="gallery__item 1" style="background-image: url('https://cms.abpx.kz{{ gallery_items[0].path }}')"></a>
-            <a href="https://cms.abpx.kz{{ gallery_items[1].path }}" data-fslightbox="gallery__items" class="gallery__item 2" style="background-image: url('https://cms.abpx.kz{{ gallery_items[1].path }}')"></a>
-            <a href="https://cms.abpx.kz{{ gallery_items[2].path }}" data-fslightbox="gallery__items" class="gallery__item 3" style="background-image: url('https://cms.abpx.kz{{ gallery_items[2].path }}')"></a>
-          </div>
-            <a href="https://cms.abpx.kz{{ gallery_items[3].path }}" data-fslightbox="gallery__items" class="gallery__item 4" style="background-image: url('https://cms.abpx.kz{{ gallery_items[3].path }}')"></a>
-            <a href="https://cms.abpx.kz{{ gallery_items[4].path }}" data-fslightbox="gallery__items" class="gallery__item 5" style="background-image: url('https://cms.abpx.kz{{ gallery_items[4].path }}')"></a>
-            <a href="https://cms.abpx.kz{{ gallery_items[5].path }}" data-fslightbox="gallery__items" class="gallery__item 6" style="background-image: url('https://cms.abpx.kz{{ gallery_items[5].path }}')"></a>
-        </div>
+    {{ include('widgets/gallery.twig') }}
 
-        <div class="gallery-swiper swiper-container d-md-none">
-          <div class="swiper-wrapper">
-            {% for item in gallery_items %}
-              <div class="swiper-slide gallery-item">
-                <a href="https://cms.abpx.kz{{ item.path }}" class="gallery-img" style="background-image: url(https://cms.abpx.kz{{ item.path }})" data-fslightbox="gallery__items"></a>
-              </div>
-            {% endfor %}
-          </div>
-          <div class="swiper-button-next gallery-next"></div>
-          <div class="swiper-button-prev gallery-prev"></div>
-        </div>
+    {{ include('widgets/horisontal_callback.twig') }}
 
-      </div>
-    </section>
+    {{ include('widgets/building_steps.twig') }}
 
-    <section id="buildingSteps" class="buildingSteps pb-6">
-      <div class="container">
-
-        <h2 class="sectionTitle mb-2 mb-md-5">
-          {{ steps_title }}
-          <span class="color">{{ steps_color_title }}</span>
-        </h2>
-
-      </div>
-
-      <div class="container-fluid">
-
-        <div class="steps-swiper swiper-container py-4">
-          <div class="swiper-wrapper">
-            {% for item in steps_items %}
-            <div class="swiper-slide" style="background-image: url(https://cms.abpx.kz{{ item.children[2].settings.image.path }})">
-                <div class="step-information">
-                  <h3>{{ item.children[0].settings.text }}</h3>
-                  {% if item.children[1].settings.gallery %}
-                    <a href="#" class="btn btn-gradient" data-gallery-images="{% for img in item.children[1].settings.gallery %}https://cms.abpx.kz{{ img.path}}{% if loop.last == false  %},{% endif%}{% endfor %}"  onclick="frontend.lightBox(this.getAttribute('data-gallery-images')); return false">Открыть</a>
-                  {% endif %}
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <section id="aboutOfCompany" class="aboutOfCompany pb-6">
-      <div class="container">
-        <h2 class="sectionTitle mt-0 mt-md-5">
-          {{ about_of_company_title }}
-          <span class="color">{{ about_of_company_color_title }}</span>
-        </h2>
-        <div class="row">
-
-          <div class="col-md-12 col-lg-9">
-            {{ about_of_company_desc|raw }}
-          </div>
-
-          <div class="col-md-12 col-lg-3">
-            <div class="logos-in-about row">
-              <div class="col-6 col-md-3 col-lg-6 text-center py-4">
-                <img src="https://cms.abpx.kz{{ exin_logo.path }}">
-              </div>
-              <div class="col-6 col-md-3 col-lg-6 text-center py-4">
-                <img src="https://cms.abpx.kz{{ site_logo.path }}">
-              </div>
-              <div class="col-12 col-md-6 col-lg-12 text-center d-flex align-items-center">
-                <a href="https://exin.kz/" class="btn btn-gradient mt-3 px-5 py-3 mx-auto" target="_blank">
-                  Узнать больше
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row pt-5">
-
-          <div class="col-md-12 col-lg-6 mb-5 d-flex fact pe-md-0">
-            <div class="left-number d-none d-md-inline-block">
-              <h4>{{ about_of_company_item_number }}</h4>
-            </div>
-            <div class="text">
-
-              <div class="left-number d-inline-block d-md-none float-start">
-                <h4>{{ about_of_company_item_number }}</h4>
-              </div>
-              <h4>{{ about_of_company_item_title|raw }}</h4>
-
-              <div class="bordered">
-                {{ about_of_company_item_desc|raw }}
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-md-12 col-lg-6 d-flex fact pe-md-0">
-            <div class="left-number d-none d-md-inline-block">
-              <h4>{{ about_of_company_item_number_two }}</h4>
-            </div>
-            <div class="text">
-
-              <div class="left-number d-inline-block d-md-none float-start">
-                <h4>{{ about_of_company_item_number_two }}</h4>
-              </div>
-              <h4>{{ about_of_company_item_title_two|raw }}</h4>
-
-              <div class="bordered">
-                {{ about_of_company_item_desc_two|raw }}
-              </div>
-
-            </div>
-          </div>
-
-        </div>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="contacts" class="new-map pb-0 mb-0 pb-lg-6 mb-lg-6">
-      <div class="container px-md-0 px-lg-6  mb-6">
-        <div class="contacts-content align-items-center d-flex p-4 p-md-5">
-          <div class="container position-relative">
-            <div class="row">
-              <div class="col-12 col-md-10 col-lg-12 mx-auto">
-                <h2 class="sectionTitle fw-bolder mb-0 mt-0 mt-md-auto">
-                  Контакты
-                </h2>
-                <div class="contacts-info row pt-4 pb-5">
-                  <div class="col-md-12 mb-md-3 col-lg-4">
-                    <a href="tel:{{ site_phone }}" class="contact-item"><i class="fas fa-phone-alt me-2"></i> {{ site_phone }}</a>
-                  </div>
-                  <div class="col-md-12 col-lg-8">
-                    <span class="contact-item"><i class="fas fa-map-marker-alt me-2"></i> {{ site_adress }}</span>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-10 mx-md-auto col-lg-4">
-                <div class="callback-form bg-white">
-                  <h4 class="d-block d-lg-none">{{ translate['callback_title'] }}</h4>
-                  <form class="mb-0 pe-0 pe-lg-5" action="">
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="staticFormName" name="name" placeholder="{{ translate['name'] }}" fieldname="Имя">
-                    </div>
-                    <div class="mb-3">
-                      <input type="text" class="form-control" id="staticFormPhone" name="phone" placeholder="{{ translate['phone'] }}" fieldname="Телефон" required="required">
-                    </div>
-                    <div class="d-inline-block">
-                      <a href="#" class="btn btn-gradient float-start sendFormButton px-4" onclick="frontend.form(this); return false">{{ translate['send'] }}</a>
-                    </div>
-                  </form>
-                </div>
-              </div>
-              <div class="col-md-10 mx-auto col-lg-8">
-                <div id="map"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    {{ include('widgets/about_developer.twig') }}
 
     {{ include('widgets/footer.twig') }}
 
@@ -938,6 +623,21 @@
 
       function authorMarker() {
         console.log("%cExclusive Qurylys with Iskandarov Timur", "color:#fff; background-color:#7eb621; padding: 8px 15px; font-size: 14px; border-radius: 4px; text-align:center")
+      }
+
+      function paralaxSlider(offset) {
+        if (offset <= 650) {
+          const paralaxLayers = document.querySelectorAll('.parallax__layer');
+
+          paralaxLayers.forEach((layer) => {
+            const speed = layer.getAttribute('data-speed');
+            const duration = layer.getAttribute('data-duration');
+            const transform = offset/duration;
+
+            layer.style.transition = speed + "s all";
+            layer.style.transform = layer.style.transform.split(' ')[0] + " translateY(-" + transform + "px)";
+          });
+        }
       }
 
       function creiateMap() {
@@ -1069,7 +769,6 @@
         }
       }
 
-      //Fade out element
       function fade(element) {
         var op = 1;  // initial opacity
         var timer = setInterval(function () {
@@ -1108,39 +807,32 @@
 
       function buildingStepsCarousel() {
         //Building Steps
-        let slidesPerView = 3.4
-        let effect = 'coverflow'
-        let coverflow = {
-          rotate: 0,
-          stretch: 150,
-          depth: 200,
-          modifier: 1,
-          slideShadows: false,
-        }
-        let center = true
-        let margin = -10
+        let slidesPerView = 3;
+        let center = false;
+        let margin = 1;
+
         if (window.innerWidth < 1350) {
-          slidesPerView = 3
+          slidesPerView = 3;
         }
+
         if (window.innerWidth < 990) {
-          slidesPerView = 2.3
+          slidesPerView = 2.3;
         }
+
         if (window.innerWidth < 768) {
-          slidesPerView = 1.3
-          effect = ''
-          coverflow = false
+          slidesPerView = 1.3;
           center = false
-          margin = 25
+          margin = 10
         }
+
         if (window.innerWidth < 576) {
           slidesPerView = 1.2
-          effect = ''
-          coverflow = false
           center = false
-          margin = 25
+          margin = 10
         }
+
         var steps = new Swiper('.steps-swiper', {
-          effect: effect,
+          effect: null,
           loop: true,
           slidesPerView: slidesPerView,
           initialSlide: 0,
@@ -1152,20 +844,20 @@
           preventClicksPropagation: false,
           lazyLoadingInPrevNext: true,
           spaceBetween: margin,
-          coverflow: coverflow,
-        })
+        });
 
-        buildingStepsAutoHeight()
+        buildingStepsAutoHeight();
 
       }
 
       function buildingStepsAutoHeight() {
 
         //Set autoHeight
-        let steps_items = document.querySelectorAll('.steps-swiper .swiper-slide')
+        let steps_items = document.querySelectorAll('.steps-swiper .swiper-slide');
+
         steps_items.forEach(function (step) {
-          let height = (step.offsetWidth / 16) * 12
-          step.style.height = height
+          let height = (step.offsetWidth / 10) * 11;
+          step.style.height = height;
         })
 
       }
@@ -1647,14 +1339,14 @@
       })()
 
       function frontendReady() {
-        authorMarker()
-        creiateMap()
-        buildingStepsCarousel()
-        advantagesCarousel()
-        galleryCarousel()
-        closePreloader()
-        //creiateUserNotification()
-        phoneValidator()
+        authorMarker();
+        creiateMap();
+        buildingStepsCarousel();
+        advantagesCarousel();
+        galleryCarousel();
+        closePreloader();
+        //creiateUserNotification();
+        phoneValidator();
       }
 
       function frontendResize() {
@@ -1664,6 +1356,8 @@
       }
 
       function frontendScroll() {
+        paralaxSlider(window.pageYOffset);
+
         //Slider paralax
         var scrollPosition = 0
         //var decor1 = document.querySelector('.decor1')
@@ -1683,14 +1377,14 @@
           }
         }
 
-        if (window.pageYOffset > 150)	{
+        if (window.pageYOffset > 450)	{
           header.classList.add('fixed')
 
         } else {
           header.classList.remove('fixed')
         }
 
-        if (window.pageYOffset > 350)	{
+        if (window.pageYOffset > 650)	{
           if (!header.classList.contains('sticky')) {
             header.classList.add('sticky')
           }
