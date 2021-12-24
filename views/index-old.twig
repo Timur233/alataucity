@@ -120,13 +120,404 @@
 
     {{ include('widgets/slider.twig') }}
 
-    {{ include('widgets/about_project.twig') }}
+    {% if reasons_gallery %}
+      <section id="reasons" class="reasons pt-6 pb-6 pb-md-0">
+      <div class="container">
+        <h2 class="sectionTitle">
+          <span class="color">{{ reasons_color_title }}</span>
+          {{ reasons_title }}
+          <span class="ghostTitle">{{ reasons_ghost_title }}</span>
+        </h2>
+        <div class="gallery-swiper swiper-container py-4">
+          <div class="swiper-wrapper">
+            {% for item in reasons_gallery %}
+              <div class="swiper-slide">
+                <a data-fslightbox="first-lightbox" href="https://cms.abpx.kz{{ item.path }}">
+                  <img src="https://cms.abpx.kz{{ item.path }}" alt="">
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        <div class="swiper-button-next"></div>
+      	<div class="swiper-button-prev"></div>
+        </div>
+      </div>
+      </section>
+    {% endif %}
+  
+  	{% if discounst %}
+    <section id="discount" class="discount pt-0 pb-6 pt-md-6 pb-md-0">
+      <div class="container">
+        <div class="row">
 
-    {{ include('widgets/horisontal_callback.twig') }}
+          <div class="col-12 mb-5 mb-md-0 mу-auto d-flex align-items-center">
+            <div class="about_block">
+              <h2 class="sectionTitle">
+                {{ discounst_title }}
+                <span class="color">{{ discounst_color_title }}</span>
+                <span class="ghostTitle">{{ discounst_ghost_title }}</span>
+              </h2>
+              {{ discounst_text|raw }}
+            </div>
+          </div>
 
-    {{ include('widgets/locations_filter.twig') }}
+          <div class="col-12 text-center mt-3">
+              <picture>
+                <source media="(max-width: 550px)" srcset="https://cms.abpx.kz{{ discounst_image_phone.path }}">
+                <source media="(max-width: 768px)" srcset="https://cms.abpx.kz{{ discounst_image_ipad.path }}">
+                <img src="https://cms.abpx.kz{{ discounst_image.path }}" class="w-100" alt="{{ discounst_title }} {{ discounst_color_title }}">
+              </picture>
+          </div>
 
-    {{ include('widgets/map.twig') }}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <section id="about" class="aboutUsBlock pb-6 pt-0 py-md-6">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-12 col-lg-6 order-1 order-md-1 order-lg-0 mt-5 mt-md-5 mb-lg-0 mt-lg-0">
+            <div class="img-block">
+              <img src="https://cms.abpx.kz{{ about_image.path }}" alt="{{ about_title }} {{ about_title_color }}">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-lg-6 d-flex align-items-center order-0 order-md-0 order-lg-1">
+            <div class="about_block">
+              <h2 class="sectionTitle">
+                {{ about_title }}
+                <span class="color">{{ about_title_color }}</span>
+                <span class="ghostTitle">{{ about_ghost_title }}</span>
+              </h2>
+              {{ about_desc|raw }}
+              <a href="#flats" class="btn btn-gradient mt-3">Выбрать квартиру</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="advantages" class="advantages pb-6">
+      <div class="container position-relative">
+
+        <h2 class="sectionTitle text-center mb-5">
+          {{ advantages_title }}
+          <span class="color">{{ advantages_title_color }}</span>
+        </h2>
+
+        <div class="advantages-swiper swiper-container ">
+          <div class="swiper-wrapper">
+
+            {% for item in advantages_items %}
+
+            <div class="swiper-slide advantage-item">
+                <div class="advantage-img" style="background-image: url(https://cms.abpx.kz{{ item.children[0].settings.image.path }})"></div>
+                <h4>{{ item.children[1].settings.text }}</h4>
+            </div>
+
+            {% endfor %}
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+      </div>
+    </section>
+
+    <section id="customMap" class="custom-map pb-6 d-none d-lg-block">
+      <div class="map-container container">
+
+        <div class="map dragscroll">
+
+          <div class="promo">
+            <img src="assets/img/map/logo2%201.svg" alt="logo" class="promo__logo">
+            <h2>4 км</h2>
+            <h3 class="promo__separator">{{ translate['cso'] }}</h3>
+            <h4><span class="promo__addres">{{ translate['kabanbay_batyr'] }}</span><span class="promo__number">104</span></h4>
+          </div>
+
+          <img src="assets/img/map/esentai mall.svg" alt="" class="map_container__esentai">
+          <img src="assets/img/map/koktobe.svg" alt="" class="map-container__koktobe">
+          <img src="assets/img/map/center-in.svg" alt="" class="map-container__center-in">
+          <img src="assets/img/map/center-out.svg" alt="" class="map-container__center-out">
+
+          <img class="map-image" src="https://cms.abpx.kz/storage/uploads/2021/10/07/615eae52af6fcmap1.png" alt="">
+
+        </div>
+      </div>
+      <div class="map-data-container container">
+        <div class="row map-data">
+          <div class="map-data__map-informer">
+            <img src="assets/img/map/childs.svg" alt="">
+            <h4>{{ translate['kindergarden'] }}</h4>
+          </div>
+          <div class="map-data__map-informer">
+            <img src="assets/img/map/school.svg" alt="">
+            <h4>{{ translate['school'] }}</h4>
+          </div>
+          <div class="map-data__map-informer">
+            <img src="assets/img/map/med.svg" alt="">
+            <h4>{{ translate['medical'] }}</h4>
+          </div>
+          <div class="map-data__map-informer">
+            <img src="assets/img/map/fitnes.svg" alt="">
+            <h4>{{ translate['fitnes'] }}</h4>
+          </div>
+          <div class="map-data__map-informer">
+            <img src="assets/img/map/mall.svg" alt="">
+            <h4>{{ translate['mall'] }}</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="flats" class="selectFloor py-6 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+            <h2 class="sectionTitle">Выбор <span class="color">квартиры</span></h2>
+            <p class="mb-2">{{ translate['count_rooms'] }}:</p>
+            <div id="roomButtons" class="d-inline-block w-100">
+              <a class="btn btn-outline-shahar me-2 mb-3 rooms" data-filter="1" href="#">1 комнатные</a>
+              <a class="btn btn-outline-shahar active me-2 mb-3 rooms" data-filter="2" href="#">2-х комнатные</a>
+              <a class="btn btn-outline-shahar me-2 mb-3 rooms" data-filter="3" href="#">3-х комнатные</a>
+              <a class="btn btn-outline-shahar me-2 mb-3 rooms" data-filter="4" href="#">4-х комнатные</a>
+            </div>
+            <p class="mb-2">{{ translate['floor'] }}:</p>
+            <div id="floorButtons" class="d-inline-block w-100">
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="1"
+                href="#"
+                >1</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="2"
+                href="#"
+                >2</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="3"
+                href="#"
+                >3</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="4"
+                href="#"
+                >4</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="5"
+                href="#"
+                >5</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="6"
+                href="#"
+                >6</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="7"
+                href="#"
+                >7</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="8"
+                href="#"
+                >8</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="9"
+                href="#"
+                >9</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="10"
+                href="#"
+                >10</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="11"
+                href="#"
+                >11</a
+              >
+              <a
+                class="btn btn-outline-shahar gold me-2 mb-3 sections"
+                data-filter="12"
+                href="#"
+                >12</a
+              >
+            </div>
+            <p class="mb-2">{{ translate['square'] }}:</p>
+            <div id="squareButtons" class="d-inline-block w-100">
+              <a
+                class="btn btn-outline-shahar me-2 mb-3 square"
+                data-filter="122.5"
+                href="#"
+                >122.5 м2</a
+              >
+              <a
+                class="btn btn-outline-shahar me-2 mb-3 square"
+                data-filter="95.5"
+                href="#"
+                >95.5 м2</a
+              >
+              <a
+                class="btn btn-outline-shahar me-2 mb-3 square"
+                data-filter="150.5"
+                href="#"
+                >150.5 м2</a
+              >
+              <a
+                class="btn btn-outline-shahar me-2 mb-3 square"
+                data-filter="60.5"
+                href="#"
+                >60.5 м2</a
+              >
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-inline-block d-md-flex plans-swiper">
+            <div class="w-100 overflow-hidden plansCarousel position-relative">
+              <div class="swiper-flats">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="bg-white w-100 h-100 p-4">
+                      <div class="row h-100">
+                        <div class="col-md-5 floot-info d-flex flex-wrap">
+                          <div class="floor-data align-items-start">
+                            <h4>1 комнатная</h4>
+                            <p>Площадь: <b>60.5 м2</b></p>
+                            <p>Дата сдачи: <b>2022/первый квартал</b></p>
+                            <div>
+                              <span>Стоимость от: </span>
+                              <h6>18 530 000 тг</h6>
+                              <b>от 306 280 за м2</b>
+                            </div>
+                          </div>
+                          <div class="orderBottons mt-auto align-items-end">
+                            <a href="" class="btn btn-gradient"
+                            >Оставить заявку <i class="fas fa-chevron-right"></i
+                            ></a>
+                            <a
+                                    class="downloadPlan"
+                                    data-fancybox
+                                    data-caption="3-х комнатная"
+                                    href="assets/img/plan.png"
+                            >Скачать планировку</a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-md-7 floor-plan">
+                          <a
+                                  href="assets/img/plan.png"
+                                  data-fancybox
+                                  data-caption="3-х комнатная"
+                          >
+                            <img src="assets/img/plan.png" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="bg-white w-100 h-100 p-4">
+                      <div class="row h-100">
+                        <div class="col-md-5 floot-info d-flex flex-wrap">
+                          <div class="floor-data align-items-start">
+                            <h4>1 комнатная</h4>
+                            <p>Площадь: <b>60.5 м2</b></p>
+                            <p>Дата сдачи: <b>2022/первый квартал</b></p>
+                            <div>
+                              <span>Стоимость от: </span>
+                              <h6>18 530 000 тг</h6>
+                              <b>от 306 280 за м2</b>
+                            </div>
+                          </div>
+                          <div class="orderBottons mt-auto align-items-end">
+                            <a href="" class="btn btn-gradient"
+                            >Оставить заявку <i class="fas fa-chevron-right"></i
+                            ></a>
+                            <a
+                                    class="downloadPlan"
+                                    data-fancybox
+                                    data-caption="3-х комнатная"
+                                    href="assets/img/plan.png"
+                            >Скачать планировку</a
+                            >
+                          </div>
+                        </div>
+                        <div class="col-md-7 floor-plan">
+                          <a
+                                  href="assets/img/plan.png"
+                                  data-fancybox
+                                  data-caption="3-х комнатная"
+                          >
+                            <img src="assets/img/plan.png" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-button-next flat-next"></div>
+                <div class="swiper-button-prev flat-prev"></div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript">
+        var offersAll = {{ offers|raw }}
+      </script>
+
+    </section>
+
+    <section id="callbackBottom" class="callback-bottom py-6 my-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form class="mb-0 dark-form" action="">
+              <div class="row position-relative py-4">
+                <div class="col-md-4 col-xl-3 py-3">
+                  <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <input type="text" class="form-control" id="staticTopFormNameBottom" name="name" placeholder="{{ translate['name'] }}" fieldname="Имя">
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 py-3">
+                  <div class="form-group">
+                    <i class="fa fa-phone"></i>
+                    <input type="text" class="form-control" id="staticTopFormPhoneBottom" name="phone" placeholder="{{ translate['phone'] }}" fieldname="Телефон" required="required">
+                  </div>
+                </div>
+                <div class="col-md-4 col-xl-3 form-bg py-3">
+                  <a href="#" class="btn btn-gradient float-start sendFormButton" onclick="frontend.form(this); return false">{{ translate['call_back_me'] }} <i class="fa fa-chevron-right ms-2"></i></a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
 
     {{ include('widgets/gallery.twig') }}
 
@@ -171,11 +562,43 @@
       </a>
     </div>
 
+    {% if notification_modal_on %}
+    <!-- Modal -->
+    <div class="modal fade" id="notificationModal" tabindex="-1" aria-labelledby="notificationModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-body">
+            <a href="#" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></a>
+            <h5 class="modal-title" id="notificationModalLabel" style="line-height: 1.2">{{ notification_modal_title }}</h5>
+            <div class="emojies">
+              <img src="assets/img/emoji/1.png" class="wow bounceIn" data-wow-delay="0s">
+              <img src="assets/img/emoji/2.png" class="wow bounceIn" data-wow-delay="0.1s">
+              <img src="assets/img/emoji/3.png" class="wow bounceIn" data-wow-delay="0.2s">
+              <img src="assets/img/emoji/4.png" class="wow bounceIn" data-wow-delay="0.3s">
+              <img src="assets/img/emoji/5.png" class="wow bounceIn" data-wow-delay="0.4s">
+            </div>
+            <p>{{ notification_modal_text }}</p>
+            <b>{{ notification_modal_contact|raw }}</b>
+            <div class="d-inline-block w-100 mt-3">
+              <a href="#contacts" class="mb-0 btn btn-gradient closeNotification">{{ translate['contacts'] }}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
   </body>
 
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/swiper.min.js"></script>
   <script src="assets/js/fslightbox.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+
+  <script>
+    new WOW().init();
+  </script>
+
   <script
     src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=c931e95f-6835-4672-9786-8ec02a9db87a"
     type="text/javascript"
@@ -210,7 +633,7 @@
             const transform = offset/duration;
 
             layer.style.transition = speed + "s all";
-            layer.style.transform = layer.style.transform.split(' ')[0] + " translateY(" + transform + "px)";
+            layer.style.transform = layer.style.transform.split(' ')[0] + " translateY(-" + transform + "px)";
           });
         }
       }
@@ -219,210 +642,104 @@
         var map = document.querySelector('.dragscroll>img.map-image');
         var container = document.querySelector('.dragscroll');
 
-        if (map) {
-            showCenterMap()
+        showCenterMap()
 
-            function showCenterMap() {
-                map.style.position = 'absolute';
-                let left = ((map.offsetWidth - container.offsetWidth) / 2) * -1
-                let top = ((map.offsetHeight - container.offsetHeight) / 2) * -1
-                map.style.left = left + 'px'
-                map.style.top = top + 'px'
+        function showCenterMap() {
+          map.style.position = 'absolute';
+          let left = ((map.offsetWidth - container.offsetWidth) / 2) * -1
+          let top = ((map.offsetHeight - container.offsetHeight) / 2) * -1
+          map.style.left = left + 'px'
+          map.style.top = top + 'px'
+        }
+
+        map.onmousedown = function(e) {
+
+          var coords = getCoords(map);
+          var shiftX = e.pageX - coords.left;
+          var shiftY = e.pageY - coords.top;
+
+          moveAt(e);
+
+          function moveAt(e) {
+            map.style.left = getLmits(e).left + 'px';
+            map.style.top = getLmits(e).top + 'px';
+          }
+
+          function getLmits(e) {
+
+            let left = e.pageX - container.offsetLeft - shiftX
+            let top = e.pageY - container.offsetTop - shiftY
+
+            if (left > 0) {
+              left = 0
             }
 
-            map.onmousedown = function(e) {
-
-            var coords = getCoords(map);
-            var shiftX = e.pageX - coords.left;
-            var shiftY = e.pageY - coords.top;
-
-            moveAt(e);
-
-            function moveAt(e) {
-                map.style.left = getLmits(e).left + 'px';
-                map.style.top = getLmits(e).top + 'px';
+            if (left < ((map.offsetWidth - container.offsetWidth) * -1))     {
+              left = ((map.offsetWidth - container.offsetWidth) * -1)
             }
 
-            function getLmits(e) {
-
-                let left = e.pageX - container.offsetLeft - shiftX
-                let top = e.pageY - container.offsetTop - shiftY
-
-                if (left > 0) {
-                left = 0
-                }
-
-                if (left < ((map.offsetWidth - container.offsetWidth) * -1))     {
-                left = ((map.offsetWidth - container.offsetWidth) * -1)
-                }
-
-                if (top > 0) {
-                top = 0
-                }
-
-                if (top < ((map.offsetHeight - container.offsetHeight) * -1))     {
-                top = ((map.offsetHeight - container.offsetHeight) * -1)
-                }
-
-                return {
-                left: left,
-                top: top
-                }
-
+            if (top > 0) {
+              top = 0
             }
 
-            document.onmousemove = function(e) {
-                moveAt(e);
-            };
-
-            map.onmouseup = function() {
-                document.onmousemove = null;
-                map.onmouseup = null;
-            };
-
+            if (top < ((map.offsetHeight - container.offsetHeight) * -1))     {
+              top = ((map.offsetHeight - container.offsetHeight) * -1)
             }
 
-            map.ondragstart = function() {
-            return false;
-            };
-
-            function getCoords(elem) {   // кроме IE8-
-            var box = elem.getBoundingClientRect();
             return {
-                top: box.top + pageYOffset,
-                left: box.left + pageXOffset
-            };
+              left: left,
+              top: top
             }
+
+          }
+
+          document.onmousemove = function(e) {
+            moveAt(e);
+          };
+
+          map.onmouseup = function() {
+            document.onmousemove = null;
+            map.onmouseup = null;
+          };
+
+        }
+
+        map.ondragstart = function() {
+          return false;
+        };
+
+        function getCoords(elem) {   // кроме IE8-
+          var box = elem.getBoundingClientRect();
+          return {
+            top: box.top + pageYOffset,
+            left: box.left + pageXOffset
+          };
         }
       }
 
       function yandexMap() {
-        let center = [43.26517742252108,76.81933862236538];
-            if (window.outerWidth < 720) {
-                center = [43.26619591975879,76.81612619737587];
-            }
+        searchMap = new ymaps.Map('map', {
+          center: [43.227735, 76.955971], //43.318978, 76.897165
+          zoom: 17,
+          controls: [],
+        });
 
-            searchMap = new ymaps.Map('interective-map', {
-                center: center,
-                zoom: 15,
-                controls: ['zoomControl'],
-            });
-
-            cildrenCollection = new ymaps.GeoObjectCollection(null)
-            medicalShopCollection = new ymaps.GeoObjectCollection(null)
-            medicalCollection = new ymaps.GeoObjectCollection(null)
-            schoolCollection = new ymaps.GeoObjectCollection(null)
-            sportCollection = new ymaps.GeoObjectCollection(null)
-            shopCollection = new ymaps.GeoObjectCollection(null)
-
-            let cildren = [[43.261021076643196,76.81612130019033], [43.25476217515409,76.82390455273799], [43.2510892898689,76.81374941112043], [43.26781234306135,76.82536458428021], [43.26353144051317,76.82427024300216]]
-            let medicalShop = [[43.26706937637685,76.81987142021771],[43.262512133313166,76.82266091759323]]
-            let medical = [[43.264488005482406,76.82759618218061]]
-            let school = [[43.257550503231634,76.81600903923626]]
-            let sport = [[43.263807723747696,76.81751107628462], [43.25874240469048,76.81708192284226], [43.260796811258224,76.81457137520428]]
-            let shop = [[43.260969315502756,76.81345557625413],[43.268292450736595,76.81965684349656],[43.265940362692085,76.82096576149581],[43.26361954611068,76.82094430382371],[43.261204547770184,76.82493543083784]]
-            for (var i = 0, l = cildren.length; i < l; i++) {
-                cildrenCollection.add(new ymaps.Placemark(cildren[i], {hintContent: 'Детский сад',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/childrens.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-            for (var i = 0, l = medicalShop.length; i < l; i++) {
-                medicalShopCollection.add(new ymaps.Placemark(medicalShop[i], {hintContent: 'Аптека',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/medical_shop.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-            for (var i = 0, l = medical.length; i < l; i++) {
-                medicalCollection.add(new ymaps.Placemark(medical[i], {hintContent: 'Поликлиника',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/medical_red.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-            for (var i = 0, l = school.length; i < l; i++) {
-                schoolCollection.add(new ymaps.Placemark(school[i], {hintContent: 'Школа',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/school.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-            for (var i = 0, l = sport.length; i < l; i++) {
-                sportCollection.add(new ymaps.Placemark(sport[i], {hintContent: 'Фитнес-центр',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/sport.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-            for (var i = 0, l = shop.length; i < l; i++) {
-                shopCollection.add(new ymaps.Placemark(shop[i], {hintContent: ' Супермаркет',balloonContent: ''},{iconLayout: 'default#image',
-                    iconImageHref: 'https://shaharcity.kz/assets/img/map/shop.svg',iconImageSize: [30, 40.9],iconImageOffset: [-15, -40.9],}));
-            }
-
-            var myGeoObject = new ymaps.GeoObject({
-                geometry: {
-                    type: "Polygon",
-                    coordinates: [
-                        [
-                            [43.26517742252108,76.81933862236538],
-                            [43.26888588653699,76.81874853638206],
-                            [43.26915244812322,76.82181698349515],
-                            [43.268054834045245,76.82198864487209],
-                            [43.26651814084699,76.82152730492152],
-                            [43.26538911686546,76.8216667797903],
-                            [43.26518526306556,76.81934935120142]
-                        ]
-                    ],
-                    fillRule: "nonZero"
-                },
-                properties:{
-                    balloonContent: "Alatau City"
-                }
-            }, {
-                fillColor: '#7EB818',
-                strokeWidth: 0,
-                opacity: 1,
-            });
-
-            var line = new ymaps.GeoObject({
-                geometry: {
-                    type: "LineString",
-                    coordinates: [
-                        [43.267244861639135,76.81395290691304],
-                        [43.26629000464022,76.82026752809485]
-                    ]
-                },
-                properties:{
-                }
-            }, {
-                strokeColor: "#464646",
-                strokeWidth: 1.3
-            });
-
-            var dot_one = new ymaps.Circle([
-                [43.267244861639135,76.81395290691304],
-                10
-            ], {}, {
-                fillColor: "#464646",
-                strokeWidth: 0
-            });
-
-            var dot_two = new ymaps.Circle([
-                [43.26629000464022,76.82026752809485],
-                10
-            ], {}, {
-                fillColor: "#464646",
-                strokeWidth: 0
-            });
-
-            (marker = new ymaps.Placemark([43.267444861639135,76.81395290691304],
-                {},
+        (marker = new ymaps.Placemark([43.227735, 76.955971],
                 {
-                    iconLayout: 'default#image',
-                    iconImageHref: 'https://alataucity.kz/img/logo.png',
-                    iconImageSize: [144, 82],
-                    iconImageOffset: [-77, -82],
+                  hintContent: 'Exclusive Time',
+                  balloonContent: 'Exclusive Time',
+                },
+                {
+                  iconLayout: 'default#image',
+                  iconImageHref: 'assets/img/map-icon.png',
+                  iconImageSize: [120, 120],
+                  iconImageOffset: [-60, -130],
                 }
-            )),
-                searchMap.geoObjects.add(cildrenCollection);
-            searchMap.geoObjects.add(medicalShopCollection);
-            searchMap.geoObjects.add(medicalCollection);
-            searchMap.geoObjects.add(schoolCollection);
-            searchMap.geoObjects.add(sportCollection);
-            searchMap.geoObjects.add(shopCollection);
-            searchMap.geoObjects.add(myGeoObject);
-            searchMap.geoObjects.add(line);
-            searchMap.geoObjects.add(dot_one);
-            searchMap.geoObjects.add(dot_two);
-            searchMap.geoObjects.add(marker);
-            searchMap.behaviors.disable('scrollZoom');
+        )),
+
+                searchMap.geoObjects.add(marker);
+        searchMap.behaviors.disable('scrollZoom');
+
       }
 
       function closePreloader() {
@@ -430,7 +747,7 @@
         setTimeout( () => {
           fade(document.getElementById('preloader'))
         }
-        ,0)
+        ,100)
 
       }
 
@@ -521,7 +838,7 @@
           mousewheelControl: true,
           lazyLoading: true,
           centeredSlides: center,
-          preventClicks: true,
+          preventClicks: false,
           preventClicksPropagation: false,
           lazyLoadingInPrevNext: true,
           spaceBetween: margin,
@@ -794,6 +1111,27 @@
 
       var newFilter = (function creiateFilter() {
 
+        function getRooms(offers, filters) {
+          //console.log(offersAll)
+          let roomsBtnHtml = ""
+          let roomsNumberArray = []
+          for (var offer in offersAll) {
+            if (!roomsNumberArray.includes(offersAll[offer].rooms)) {
+              roomsNumberArray.push(offersAll[offer].rooms)
+              roomsBtnHtml = roomsBtnHtml + '<a class="btn btn-outline-shahar me-2 mb-3 rooms" data-filter="' + offersAll[offer].rooms + '" href="#" onclick="frontend.filterClick(\'#roomButtons\' ,this.getAttribute(\'data-filter\')); frontend.filterCreiate(offersAll); return false">' + offersAll[offer].rooms + (offersAll[offer].rooms != 1 ? translater.multiplier : translater.multiplierX1) + '</a>'
+            }
+          }
+          let rooms = document.getElementById('roomButtons')
+          rooms.innerHTML = roomsBtnHtml
+          if (filters.room == '') {
+            let activeRoom = document.querySelector('#roomButtons .btn:first-child')
+            activeRoom.classList.add("active")
+          } else {
+            let activeRoom = document.querySelector('#roomButtons [data-filter="' + filters.room + '"]')
+            activeRoom.classList.add("active")
+          }
+        }
+
         function getFloors(offers, filters) {
           let floorsBtnHtml = ""
           let floorsNumberArray = []
@@ -801,13 +1139,13 @@
             for (var floor in offers[offer].floors) {
               if (!floorsNumberArray.includes(offers[offer].floors[floor])) {
                 floorsNumberArray.push(offers[offer].floors[floor])
-                floorsBtnHtml = floorsBtnHtml + '<a class="floor-buttons__item sections" data-filter="' + offers[offer].floors[floor] + '" href="#" onclick="frontend.filterClick(\'#floorButtons\', this.getAttribute(\'data-filter\')); frontend.filterCreiate(offersAll); return false">' + offers[offer].floors[floor] + '</a>'
+                floorsBtnHtml = floorsBtnHtml + '<a class="btn btn-outline-shahar gold me-2 mb-3 sections" data-filter="' + offers[offer].floors[floor] + '" href="#" onclick="frontend.filterClick(\'#floorButtons\', this.getAttribute(\'data-filter\')); frontend.filterCreiate(offersAll); return false">' + offers[offer].floors[floor] + '</a>'
               }
             }
           }
-          let floors = document.getElementById('floorButtons');
-          floors.innerHTML = floorsBtnHtml;
-          if (filters.floor !== '') {
+          let floors = document.getElementById('floorButtons')
+          floors.innerHTML = floorsBtnHtml
+          if (filters.floor != '') {
             let activeFloor = document.querySelector('#floorButtons [data-filter="' + filters.floor + '"]')
             if (activeFloor) {
               activeFloor.classList.add("active")
@@ -823,18 +1161,18 @@
           for (var offer in offers) {
             if (!squareNumberArray.includes(offers[offer].square)) {
               squareNumberArray.push(offers[offer].square)
-              squareBtnHtml = squareBtnHtml + '<a class="square square-buttons__item" data-filter="' + offers[offer].square + '" href="#" onclick="frontend.filterClick(\'#squareButtons\', this.getAttribute(\'data-filter\')); frontend.filterCreiate(offersAll); return false">' + offers[offer].square + ' м<sup>2</sup></a>'
+              squareBtnHtml = squareBtnHtml + '<a class="btn btn-outline-shahar me-2 mb-3 square" data-filter="' + offers[offer].square + '" href="#" onclick="frontend.filterClick(\'#squareButtons\', this.getAttribute(\'data-filter\')); frontend.filterCreiate(offersAll); return false">' + offers[offer].square + ' м2</a>'
             }
           }
           let square = document.getElementById('squareButtons')
           square.innerHTML = squareBtnHtml
-
-          if (filters.square == '') {
-            let activeSquare = document.querySelector('#squareButtons .square-buttons__item:first-child')
-            activeSquare.classList.add("active");
-          } else {
-            let activeSquare = document.querySelector('#squareButtons [data-filter="' + filters.square + '"]');
-            activeSquare.classList.add("active");
+          if (filters.square != '') {
+            let activeSquare = document.querySelector('#squareButtons [data-filter="' + filters.square + '"]')
+            if (activeSquare) {
+              activeSquare.classList.add("active")
+            } else {
+              square.firstElementChild.classList.add("active")
+            }
           }
         }
 
@@ -845,32 +1183,44 @@
             offers[key] = offersAll[key];
           }
 
+          //
+          // console.log(offers)
+
           let filters = {
-            square: document.querySelector('#squareButtons a.active') != null ? document.querySelector('#squareButtons a.active').getAttribute('data-filter') : '',
+            room: document.querySelector('#roomButtons a.active').getAttribute('data-filter'),
             floor: document.querySelector('#floorButtons a.active') != null ? document.querySelector('#floorButtons a.active').getAttribute('data-filter') : '',
+            square: document.querySelector('#squareButtons a.active') != null ? document.querySelector('#squareButtons a.active').getAttribute('data-filter') : ''
           }
 
-          getSquare(offers, filters)
-
-          if (filters.square !== '') {
+          getRooms(offers, filters)
+          if (filters.room != '') {
             for (var offer in offers) {
-              if (offers[offer].square != filters.square) {
+              if (offers[offer].rooms != filters.room) {
                 delete offers[offer]
               }
             }
           }
-          
           getFloors(offers, filters)
 
-          if (filters.floor !== '') {
+          if (filters.floor != '') {
             for (var offer in offers) {
               if (!offers[offer].floors.includes(filters.floor)) {
                 delete offers[offer]
               }
             }
           }
+          getSquare(offers, filters)
+
+          if (filters.square != '') {
+            for (var offer in offers) {
+              if (offers[offer].square != filters.square) {
+                delete offers[offer]
+              }
+            }
+          }
 
           renderOffers(offers)
+          sortButtons('#roomButtons a')
           sortButtons('#floorButtons a')
           sortButtons('#squareButtons a')
 
@@ -898,17 +1248,44 @@
         }
 
         function renderOffers(offers) {
-          const priceNode = document.querySelector('.location_price');
-          const floorPlanNode = document.querySelector('.floor-plan__img');
-          const locationPlanNode = document.querySelector('.locaton-plan__img');
-          const buttonNode = document.querySelector('.download-link__location');
-          const locations = offers.filter(el => {return el});
-          const locationData = locations[0];
-
-          priceNode.textContent = locationData.price + ' тг.';
-          floorPlanNode.src = 'https://cms.abpx.kz' + locationData.floor_plan.path;
-          locationPlanNode.src = 'https://cms.abpx.kz' + locationData.plan.path;
-          buttonNode.href = 'https://cms.abpx.kz' + locationData.plan.path;
+          var offersHtml = '';
+          offersHtml += '<div class="swiper-flats"><div class="swiper-wrapper">';
+          offers.forEach(function (el) {
+            offersHtml += '		<div class="swiper-slide">';
+            offersHtml += '        <div class="bg-white w-100 h-100 p-4">';
+            offersHtml += '          <div class="row h-100">';
+            offersHtml +=
+                    '            <div class="col-md-5 floot-info d-flex flex-wrap">';
+            offersHtml += '              <div class="floor-data align-items-start mt-2">';
+            offersHtml += '                <h4>' + el.rooms + ((el.rooms != 1) ? translater.multiplier : translater.multiplierX1) + '</h4>';
+            offersHtml += '                <p>' + translater.square + ': <b>' + el.square + ' м2</b></p>';
+            offersHtml += '                <a class="downloadPlan" data-caption="' + el.title + '" href="https://cms.abpx.kz' + el.plan.path + '" onclick="frontend.lightBox(this.href); return false">' + translater.download_plan + '</a>';
+            //offersHtml += '                <div class="mb-3">';
+            //offersHtml += '                  <span>Стоимость от: </span>';
+            //offersHtml += '                  <h6>18 530 000 тг</h6>';
+            //offersHtml += '                  <b>от 306 280 за м2</b>';
+            //offersHtml += '                </div>';
+            offersHtml += '              </div>';
+            offersHtml +=
+                    '              <div class="orderBottons mt-auto align-items-end">';
+            offersHtml +=
+                    '                <a href="#" class="btn btn-gradient mb-3" data-bs-toggle="modal" data-bs-target="#callbackModal">' + translater.leave_a_request + ' <i class="fas fa-chevron-right"></i></a>';
+            offersHtml += '              </div>';
+            offersHtml += '            </div>';
+            offersHtml += '            <div class="col-md-7 p-3 floor-plan d-flex">';
+            offersHtml += '              <a href="https://cms.abpx.kz' + el.plan.path + '" onclick="frontend.lightBox(this.href); return false">';
+            offersHtml += '                <img data-src="https://cms.abpx.kz/' + el.plan.path + '" class="swiper-lazy">';
+            offersHtml += '				   <div class="swiper-lazy-preloader swiper-lazy-preloader-pink"></div>';
+            offersHtml += '              </a>';
+            offersHtml += '            </div>';
+            offersHtml += '          </div>';
+            offersHtml += '        </div>';
+            offersHtml += '      </div>';
+          });
+          offersHtml += '</div><div class="swiper-button-next flat-next"></div><div class="swiper-button-prev flat-prev"></div></div>';
+          let offersCarousel = document.querySelector('.plansCarousel')
+          offersCarousel.innerHTML = offersHtml
+          startNewSwiper()
         }
 
         function startNewSwiper(offersAll) {
@@ -933,10 +1310,20 @@
             now.classList.add('active')
           }
 
-          if (parent == "#squareButtons") {
+          if (parent == "#roomButtons") {
             let floorActive = document.querySelector('#floorButtons .active')
+            let squareActive = document.querySelector('#squareButtons .active')
             if (floorActive != null) {
               floorActive.classList.remove('active')
+            }
+            if (squareActive != null)
+              squareActive.classList.remove('active')
+          }
+
+          if (parent == "#floorButtons") {
+            let squareActive = document.querySelector('#squareButtons .active')
+            if (squareActive != null) {
+              squareActive.classList.remove('active')
             }
           }
 
@@ -949,51 +1336,26 @@
 
       })()
 
-      function activeMenuItem(scroll) {
-        const menuItems = document.querySelectorAll('.nav-menu>li>a:not(.lang-switcher__item)');
-        const headerHeight = document.querySelector('header').offsetHeight;
-        const checkActivation = (scroll, elTop, elBottom) => { //return Bool
-            if (scroll >= elTop && scroll <= elBottom) {
-                return true;
-            }
-
-            return false;
-        }
-        const selectElement = (element) => {
-            const oldSelect = document.querySelector('.nav-menu>li.active');
-
-            oldSelect.classList.remove('active');
-            element.classList.add('active');
-        }
-
-        menuItems.forEach(item => {
-            const el = document.querySelector(item.getAttribute('href'));
-            const isSelected = checkActivation(
-                                    scroll, 
-                                    el.offsetTop - headerHeight, 
-                                    (el.offsetTop + el.offsetHeight) - headerHeight
-                                );
-
-            if (isSelected) {
-                selectElement(item.parentNode);
-            }
-        });
-      }
-      
       function frontendReady() {
         authorMarker();
+        creiateMap();
         buildingStepsCarousel();
+        advantagesCarousel();
+        galleryCarousel();
         closePreloader();
+        //creiateUserNotification();
         phoneValidator();
       }
 
       function frontendResize() {
-        buildingStepsCarousel();
+        buildingStepsCarousel()
+        advantagesCarousel()
+        creiateMap()
       }
 
       function frontendScroll() {
         paralaxSlider(window.pageYOffset);
-        activeMenuItem(window.pageYOffset);
+
         //Slider paralax
         var scrollPosition = 0
         //var decor1 = document.querySelector('.decor1')
@@ -1002,34 +1364,31 @@
         //var logo = document.querySelector('header a.navbar-brand img')
 
         if (window.pageYOffset < 700) {
-          scroll1 = window.pageYOffset / 4;
-          scroll2 = window.pageYOffset / 20;
+          scroll1 = window.pageYOffset / 4
+          scroll2 = window.pageYOffset / 20
           //decor1.style.transform = "translateY(-" + scroll1 + "px)"
           //decor2.style.transform = "translateY(-" + scroll2 + "px)"
         } else {
           if (!header.classList.contains('ymap')) {
-            header.classList.add('ymap');
-            ymaps.ready(frontend.yandex);
+            header.classList.add('ymap')
+            ymaps.ready(frontend.yandex)
           }
         }
 
         if (window.pageYOffset > 450)	{
-          header.classList.add('fixed');
-          header.classList.remove('pt-4');
-          header.classList.remove('pb-1');
-          // pt-4 pb-1
+          header.classList.add('fixed')
+
         } else {
-          header.classList.remove('fixed');
-          header.classList.add('py-2');
+          header.classList.remove('fixed')
         }
 
         if (window.pageYOffset > 650)	{
           if (!header.classList.contains('sticky')) {
-            header.classList.add('sticky');
+            header.classList.add('sticky')
           }
         } else {
           if (header.classList.contains('sticky')) {
-            header.classList.remove('sticky');
+            header.classList.remove('sticky')
           }
         }
       }
@@ -1050,17 +1409,46 @@
         scroll: frontendScroll
       }
 
-    })();
+    })()
 
-  	document.addEventListener("DOMContentLoaded", ()=>{ frontend.ready() });
-  	window.addEventListener("resize", ()=>{ frontend.resize() });
-  	document.addEventListener("scroll", ()=>{ frontend.scroll() });
+  	document.addEventListener("DOMContentLoaded", ()=>{ frontend.ready() })
+  	window.addEventListener("resize", ()=>{ frontend.resize() })
+  	document.addEventListener("scroll", ()=>{ frontend.scroll() })
 
-    if (typeof offersAll !== "undefined") {
-        frontend.filterCreiate(offersAll);
-    }
+    frontend.filterCreiate(offersAll)
 
   </script>
+
+  <style>
+  .gallery-swiper img {
+      max-width:100%;
+  }
+  span.input-err {
+    position: relative;
+    background: #efd37d;
+    padding: 8px 10px;
+    display: inline-flex;
+    border-radius: 4px;
+    margin-top: 15px;
+    line-height: 1.2;
+    font-size: .86rem;
+    width: 100%;
+  }
+
+  .form-preloader {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: rgb(255 255 255 / 45%) url(https://cms.abpx.kz/storage/uploads/2021/09/01/612f182cd48ad35.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40px;
+  }
+
+  span.input-err:before {content: '';position: absolute;width: 10px;height: 10px;background: #efd37d; top: -5px;left: 15px;transform: rotate(45deg);}
+  </style>
 
   {{ site_scripts_in_footer|raw }}
 
