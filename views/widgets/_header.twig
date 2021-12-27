@@ -1,4 +1,4 @@
-<header class="align-items-center w-100 pt-4 pb-1" style="z-index: 999">
+<header class="main-header align-items-center w-100" style="z-index: 999">
    <div class="container">
       <div class="row">
          <div class="col d-flex">
@@ -37,12 +37,14 @@
                </li>
                <li class="ms-4">
                   {% if lang == 'ru' %}
+                     {% set langView = 'kk' %}
                      {% set langSelector = 'kz' %}
                   {% else %}
+                     {% set langView = 'ru' %}
                      {% set langSelector = 'ru' %}
                   {% endif %}
                   <a 
-                     href="?lang={{ langSelector }}" 
+                     href="?lang={{ langView }}" 
                      class="lang-switcher__item"
                   >
                      <i class="fas fa-globe-americas"></i>
@@ -54,13 +56,13 @@
          <div class="col d-flex align-items-center justify-content-end">
 
             <!-- Contact Block -->
-            <div class="contact-block d-//-none d-sm-inline-block">
+            <div class="contact-block d-none d-sm-inline-block">
                <a href="tel:{{site_phone}}" class="contact-block__phone">{{site_phone}}</a>
                <a href="" class="d-none d-lg-inline-block btn btn-gradient contact-block__callback-btn" data-bs-toggle="modal" data-bs-target="#callbackModal">{{ translate['leave_a_request'] }}</a>
             </div>
 
             <!-- Mobile Phone Number -->
-            <a href="#" class="mobile-phone-data d-none d-inline-block d-xl-none ps-3" onclick="let phoneNumber = document.querySelector('.contact-block__phone').textContent; window.location.href = 'tel:' + phoneNumber">
+            <a href="#" class="mobile-phone-data d-block d-sm-none ps-3" onclick="let phoneNumber = document.querySelector('.contact-block__phone').textContent; window.location.href = 'tel:' + phoneNumber">
             <i class="fas fa-phone"></i>
             </a>
 

@@ -4,28 +4,9 @@
     <p>
         {{ translater.promise }}
     </p>
-    {% if isPresent %}
-    <div class="thanks-body">
-        <p class="thanks-body__p mb-2">
-            <img width="20px" src="https://cms.abpx.kz/storage/uploads/2021/11/11/618cd6a64d98cparty-popper_1f389.png">
-            Заберите свой подарок:
-            <a href="{{ presentLink }}" target="_blank">{{ presentName }}</a>
-        </p>
-        <a href="{{ presentLink }}" target="_blank" class="mb-0 btn thanks-body__btn">
-            Подписаться
-            <i class="fab fa-telegram-plane"></i>
-        </a>
-    </div>
-    {% endif %}
     {% else %}
     <p class='mb-1'><strong>{{ translater.thanks }}!</strong></p>
     <p>{{ translater.promise }}</p>
     <a href="" class="mb-0 btn btn-gradient" data-bs-dismiss="modal" aria-label="Close">{{ translater.close }}</a>
     {% endif %}
 </div>
-
-<style>
-    .thanks-body { background: rgb(202 223 239 / 49%); border-radius: 6px; padding: 24px; }
-    .thanks-body__p { font-size: 1rem !important; }
-    .thanks-body__btn { background: #5682a3; color: #fff !important; }
-</style>

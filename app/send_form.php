@@ -9,7 +9,7 @@
         $body['form'][$input['name']] = $input['data'];
     }
 
-    $ch = curl_init('https://cms.abpx.kz/api/forms/submit/timeform?token=account-'.SING_TOKEN);
+    $ch = curl_init('https://cms.abpx.kz/api/forms/submit/' . FORM_NAME . '?token=account-'.SING_TOKEN);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     curl_setopt($ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/json' ));
@@ -22,7 +22,12 @@
 
     $refer = parse_url($_SERVER['HTTP_REFERER']);
     parse_str($refer['query'], $query);
-    $lang = $query['lang'];
+    
+    $lang = 'ru';
+
+    if (isset($query['lang'])) {
+        $lang = $query['lang'];
+    }
 
     $translater = getData($lang);
     $translater = $translater['translate'];

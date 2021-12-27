@@ -1,9 +1,14 @@
+::-webkit-scrollbar{
+    width:17px;
+}
+
 .gallery-swiper img {
     max-width:100%;
 }
 span.input-err {
   position: relative;
   background: #efd37d;
+  color: #333;
   padding: 8px 10px;
   display: inline-flex;
   border-radius: 4px;
@@ -271,4 +276,167 @@ span.about-developer-items__title {
 
 .floor-plan__img {
     max-width: 200px;
+}
+
+.main-header {
+    position: absolute;
+    padding-top: 24px;
+    padding-bottom: 4px;
+}
+
+.main-header.fixed {
+    position: absolute;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+@media (min-width: 720px) {
+    .fslightbox-open header.main-header {
+        right: 8px;
+    }
+    
+    .fslightbox-open .fixed-callback .fix-button {
+        margin-right: 17px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .parallax__layer--decor-second {
+        left: -10%;
+    }
+    
+    .parallax__layer--decor-first {
+        right: -140px;
+        bottom: -140px;
+    }
+    
+    .parallax__layer--main-house {
+        right: -2%;
+    }
+    
+    .parallax__layer--back-house {
+        right: -5%;
+        bottom: 1%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .parallax__layer--decor-second {
+        left: -30%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .parallax__layer--decor-first {
+        right: -200px;
+        bottom: -160px;
+    }
+    
+    .parallax__layer--decor-second {
+        left: -50%;
+    }
+    
+    .parallax__layer--main-house {
+        right: -11%;
+    }
+    
+    .parallax__layer--back-house {
+        right: -10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .parallax__layer--back-house {
+        right: -20%;
+    }
+    
+    .parallax__layer--main-house {
+        right: -18%;
+    }
+    
+    .parallax__layer--decor-second {
+        left: -105%;
+    }
+}
+
+@media (max-width: 600px) {
+    .parallax__layer--back-house {
+        right: -50%;
+    }
+    
+    .parallax__layer--main-house {
+        right: -30%;
+    }
+    
+    .parallax__layer--decor-second {
+        left: -120%;
+    }
+
+    .main-header {
+        padding-bottom: 0px;
+    }
+
+    .main-header.fixed {
+        padding: 12px 0;
+    }
+
+    .advantages__text {
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    .advantages__title {
+        margin-bottom: 1rem;
+    }
+
+    .download-link {
+        float: left;
+    }
+    
+    .callback-h__i {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .parallax__layer--back-house {
+        right: -40%;
+    }
+    
+    .parallax__layer--main-house {
+        right: -50%;
+    }
+    
+    .parallax__layer--decor-second {
+        left: -150%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .parallax__layer--decor-second {
+        left: -5%;
+    }
+}
+
+@media (min-width: 1600px) {
+    .parallax__layer--decor-second {
+        left: 8%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .parallax__layer--decor-second {
+        left: 20%;
+    }
+}
+
+@media (min-width: 2450px) {
+    .slider {
+        min-height: 660px;
+    }
+    
+    .parallax__layer--decor-second {
+        left: 24%;
+    }
 }
